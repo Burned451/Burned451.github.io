@@ -1,0 +1,112 @@
+@font-face {
+	font-family: 'Segoe UI';
+	src: url('segoe ui.ttf');
+}
+
+body {
+	margin: 0px;
+}
+
+.first-screen {
+	height: 100%;
+	width: 100%;
+	background: red;	
+	box-shadow: 0px 0px 8px;
+}
+
+h1 {
+	font-family: Segoe UI;
+	font-size: 80px;
+	font-weight: lighter;
+	color: white; 
+	text-align: center;
+	line-height: 550px;
+}
+
+.second-screen {
+	height: 100%;
+	width: 100%;
+	background: white;	
+}
+
+h2 {
+	font-family: Segoe UI;
+	font-size: 40px;
+	font-weight: lighter;
+	color: black; 
+	text-align: center;
+}
+
+h3 {
+	font-family: Segoe UI;
+	font-size: 30px;
+	font-weight: lighter;
+	color: black; 
+	text-align: center;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+span {
+	line-height: 40px;
+	font-size: 20px;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+
+.dropdown-content {
+	display: none;
+	position: relative;
+	background-color: white;
+	padding: 6px 16px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: gray;
+	font-family: Segoe UI;
+	font-size: 16px;
+	font-weight: lighter;
+    text-decoration: none;
+	text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.third-screen {
+	height: 100%;
+	width: 100%;
+	background: orange;	
+	box-shadow: 0px 0px 8px;
+}
+
+h4 {
+	font-family: Segoe UI;
+	font-size: 60px;
+	font-weight: lighter;
+	color: white; 
+	text-align: center;
+}
+
+.home-menu-button {
+	font-family: Segoe UI;
+	font-size: 20px;
+	font-weight: lighter;
+	color: white; 
+	background-color: orange;
+    border: none;
+    width: 120px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+    text-align: center;
+	transition-duration: 0.4s;
+}
+
+.home-menu-button:hover {
+	box-shadow: 0 10px 30px rgba(0,0,0,0.32);
+}
