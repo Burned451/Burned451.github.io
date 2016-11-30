@@ -1,0 +1,25 @@
+<svg width="13" height="10" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="0" x1="0" id="svg_4">
+   <stop offset="0" stop-color="#fff"/>
+   <stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+  <linearGradient spreadMethod="pad" y2="0" x2="1" y1="0" x1="0" id="svg_5">
+   <stop offset="0" stop-color="#fff"/>
+   <stop offset="1" stop-color="#000000"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#ffffff" id="canvas_background" height="12" width="15" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <line stroke="#666666" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="7.014898" x2="8.775524" y1="3.18751" x1="12.602912" fill="none"/>
+  <line transform="rotate(90 7.5017499923706055,5.10120439529419) " stroke="#666666" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_3" y2="7.014898" x2="5.588056" y1="3.18751" x1="9.415444" fill="none"/>
+ </g>
+</svg>
