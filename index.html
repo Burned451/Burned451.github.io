@@ -5,12 +5,10 @@
 		<title>
 			Edward Boguslavsky - Home
 		</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-			$('body').load('universal-header.html'); // loads the .html in the #targetid
-		</script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	</head>
 	<body>
-		
+		<div id="top-header"></div>
 		<div class="content">
 		<img src="sunset-widescreen.jpg" align="middle" style="width:100%; height:460px; position:relative; margin-top:50px; z-index: -1;">
 			<h2>
@@ -44,4 +42,8 @@
 			</ul>
 		</footer>
 	</body>
+
+	<script text="text/javascript">
+		$('#top-header').load('universal-header.html'); // loads the .html in the #targetid
+	</script>
 </html>
