@@ -2,29 +2,13 @@
 	<head>
 		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="shortcut icon" type="image/x-icon" href="eb-icon.png"/>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<title>
 			Edward Boguslavsky - Gallery
 		</title>
 	</head>
 	<body>
-		<header>
-			<h1>
-				Edward <span style="font-weight:500;">Boguslavsky</span>
-			</h1>
-			<ul>
-				<li><a href="about.html">About</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li class="dropdown">
-					<a href="" class="dropdown-button">Gallery<img src="dropdown-arrow.svg"></a>
-					<div class="dropdown-content">
-						<a href="#oct-2016">October 2016</a>
-						<a href="#nov-2016">November 2016</a>
-						<a href="#dec-2016">December 2016</a>
-					</div>
-				</li>
-				<li><a href="index.html">Home</a></li>
-			</ul>
-		</header>
+		<div id="top-header"></div>
 		<div class="content">
 			<img src="forest-widescreen.jpg" align="middle" style="width:100%; height:460px; position:relative; margin-top:50px; z-index: -1;">
 			<h2>
@@ -64,13 +48,10 @@
 					<img src="gallery-images/no-image.jpg" class="gallery-images-content">
 				</div>
 		</div>
-		<footer>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="">Gallery</a></li>
-				<li><a href="links.html">Links</a></li>
-				<li><a href="about.html">About</a></li>
-			</ul>
-		</footer>
+		<div id="bottom-footer"></div>
 	</body>
+	<script text="text/javascript">
+		$('#top-header').load('universal-header.html');
+		$('#bottom-footer').load('universal-footer.html');
+	</script>
 </html>
