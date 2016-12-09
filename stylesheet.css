@@ -103,11 +103,7 @@ li.dropdown {
 	height: 135px;
 	display: inline-block;
 	margin: 8px;
-	transition: 0.5s;
-}
-
-.gallery-images-content:hover {
-	box-shadow: 0 0px 12px 2px rgba(0, 0, 0, 0.3);
+	border-radius: 5px;
 }
 
 h2 {
