@@ -118,6 +118,7 @@ h2 {
 	margin-left: 120px;
 	position: absolute;
 	color: white;
+	z-index: 2;
 }
 
 h3 {
