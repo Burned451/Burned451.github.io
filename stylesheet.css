@@ -5,6 +5,8 @@
 
 body {
 	margin: 0px;
+	width: 1260px;
+	margin: auto;
 }
 
 header {
@@ -21,7 +23,7 @@ h1 {
 	font-size: 28px;
 	line-height: 48px;
 	margin: 10px;
-	margin-left: 26px;
+	margin-left: 20px;
 	display: inline;
 }
 
