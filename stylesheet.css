@@ -143,6 +143,8 @@ footer {
 	border-top: 1px solid #b3b3b3;
 	text-align: center;
 	position: relative;
+	margin-bottom: 0px;
+	padding-bottom: 0px; 
 }
 
 footer li {
