@@ -90,6 +90,8 @@ li.dropdown {
 	min-height: 100%;
 	margin-bottom: 50px;
 	padding-bottom: 46px; 
+	width:1000px;
+	margin: auto;
 }
 
 .gallery-images {
