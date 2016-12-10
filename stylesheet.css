@@ -155,10 +155,12 @@ p {
 
 a.link-page {
 	text-decoration: none;
+	color: black;
 }
 
 a.link-page:hover {
 	text-decoration: none;
+	color: black;
 }
 
 a.link-page:visited {
