@@ -3,6 +3,12 @@
 	src: url('segoe ui.ttf');
 }
 
+@font-face {
+	font-family: 'Segoe UI Light';
+	src: url('segoe ui.ttf');
+	font-weight: lighter;
+}
+
 body {
 	margin: 0px;
 	background: #f4f4f4;
