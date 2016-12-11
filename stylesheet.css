@@ -204,6 +204,7 @@ a.link-page:visited {
 }
 
 .social-icons:hover {
+	border-radius: 6px;
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
 }
