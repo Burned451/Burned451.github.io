@@ -3,6 +3,8 @@
 	src: url("segoe-ui.ttf");
 }
 
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
 	margin: 0px;
 	background: #f4f4f4;
@@ -17,7 +19,7 @@ header {
 }
 
 h1 {
-	font-family: Segoe UI;
+	font-family: 'Open Sans',serif;
 	font-weight: lighter;
 	font-size: 28px;
 	line-height: 48px;
