@@ -153,6 +153,10 @@ p {
 	border-radius: 6px;
 }
 
+.galler-images-content:hover {
+	opacity: 0.6;
+}
+
 a.link-page {
 	text-decoration: none;
 	color: black;
