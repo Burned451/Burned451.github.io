@@ -151,6 +151,7 @@ p {
 	display: inline-block;
 	margin: 8px;
 	border-radius: 6px;
+	transition: 0.4s;
 }
 
 .gallery-images-content:hover {
