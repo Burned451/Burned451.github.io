@@ -3,12 +3,6 @@
 	src: url('segoe ui.ttf');
 }
 
-@font-face {
-	font-family: 'Segoe UI Light';
-	src: url('segoe ui.ttf');
-	font-weight: 100;
-}
-
 body {
 	margin: 0px;
 	background: #f4f4f4;
@@ -23,7 +17,8 @@ header {
 }
 
 h1 {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 28px;
 	line-height: 48px;
 	margin: 10px;
@@ -52,7 +47,8 @@ li a, .dropdown-button {
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 18px;
 	color: black;
 	background-color: white;
@@ -110,7 +106,8 @@ li.dropdown {
 }
 
 h2 {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 80px;
 	top: 0px;
 	line-height: 410px;
@@ -121,7 +118,8 @@ h2 {
 }
 
 h3 {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 46px;
 	line-height: 100px;
 	text-align: center;
@@ -130,7 +128,8 @@ h3 {
 }
 
 h4 {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 20px;
 	margin-top: 0px;
 	text-align: center;
@@ -174,7 +173,8 @@ a.link-page:visited {
 }
 
 .link-site {
-	font-family: Segoe UI Light;
+	font-family: Segoe UI;
+	font-weight: lighter;
 	font-size: 26px;
 	margin-top: 0px;
 }
