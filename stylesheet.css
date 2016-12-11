@@ -44,8 +44,8 @@ li a, .dropdown-button {
 	text-align: center;
 	padding: 14px 20px;
 	text-decoration: none;
-	font-family: Segoe UI;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 18px;
 	color: black;
 	background-color: white;
@@ -103,8 +103,8 @@ li.dropdown {
 }
 
 h2 {
-	font-family: Segoe UI;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 80px;
 	top: 0px;
 	line-height: 410px;
@@ -115,8 +115,8 @@ h2 {
 }
 
 h3 {
-	font-family: Segoe UI;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 46px;
 	line-height: 100px;
 	text-align: center;
@@ -125,15 +125,15 @@ h3 {
 }
 
 h4 {
-	font-family: Segoe UI;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 20px;
 	margin-top: -10px;
 	text-align: center;
 }
 
 p {
-	font-family: Segoe UI;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 }
@@ -170,8 +170,8 @@ a.link-page:visited {
 }
 
 .link-site {
-	font-family: Segoe UI;
-	font-weight: lighter;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 	font-size: 26px;
 	margin-top: 0px;
 }
