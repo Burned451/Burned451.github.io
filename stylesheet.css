@@ -196,6 +196,7 @@ a.link-page:visited {
 	margin-top: -6px;
 	margin-left: 6px;
 	margin-right: 6px;
+	margin-bottom: 10px;
 	transition: 0.4s;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
