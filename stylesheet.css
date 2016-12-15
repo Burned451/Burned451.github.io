@@ -172,9 +172,9 @@ p {
 .gallery-modal-content {
 	margin: auto;
 	display: block;
-	width: 80%;
+	width: 60%;
 	max-width: 1000px;
-	margin-top: 200px;
+	margin-top: 120px;
 }
 
 .gallery-modal-close {
