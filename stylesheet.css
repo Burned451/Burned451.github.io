@@ -219,6 +219,30 @@ a.link-page:visited {
 	display: inline-block;
 	border-radius: 6px;
 	border: 1px solid #b3b3b3;
+	transition: 0.4s;
+}
+
+.link-centered-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 42px;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.link-screenshot-link:hover {
+	cursor: pointer;
+}
+
+.link-screenshot-link:hover .link-screenshot {
+	opacity: 0.2;
+}
+
+.link-screenshot-link:hover .link-centered-text {
+	opacity: 0.8;
 }
 
 .link-video {
