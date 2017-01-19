@@ -142,12 +142,17 @@ p {
 	text-align: center;
 }
 
-.gallery-images-content {
+.gallery-images-content-16x9 {
+	width: 240px;
 	height: 135px;
 	display: inline-block;
 	margin: 8px;
 	border-radius: 6px;
 	transition: 0.4s;
+}
+
+.gallery-images-content-7x5 {
+	width: 194px;
 }
 
 .gallery-images-content:hover {
