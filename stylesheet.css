@@ -155,12 +155,12 @@ p {
 	width: 194px;
 	height: 135px;
 	display: inline-block;
-	margin: 8px 31px;
+	margin: 8px;
 	border-radius: 6px;
 	transition: 0.4s;
 }
 
-.gallery-images-content:hover {
+.gallery-images-content-wide:hover, .gallery-images-content-regular:hover {
 	opacity: 0.6;
 	cursor: pointer;
 }
