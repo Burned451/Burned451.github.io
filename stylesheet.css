@@ -155,9 +155,7 @@ p {
 	width: 194px;
 	height: 135px;
 	display: inline-block;
-	margin: 8px;
-	margin-left: 31px;
-	margin-right: 31px;
+	margin: 8px 31px;
 	border-radius: 6px;
 	transition: 0.4s;
 }
