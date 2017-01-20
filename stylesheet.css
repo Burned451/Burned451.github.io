@@ -290,3 +290,31 @@ footer {
 footer li {
 	display: inline-block;
 }
+
+.speaker-list, .speaker-list-ul {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	margin-left: 280px;
+}
+
+.speaker-list-ul {
+	display: inline-block;
+	margin-left: 300px;
+}
+
+.speaker-table {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	width: 900px;
+	text-align: center;
+}
+
+.speaker-image {
+	height: 160px;
+	margin-top: 2px;
+	margin-left: 24px;
+	margin-bottom: 4px;
+	border-radius: 6px;
+}
