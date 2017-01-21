@@ -318,3 +318,10 @@ footer li {
 	margin-bottom: 4px;
 	border-radius: 6px;
 }
+
+.speaker-text {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+}
