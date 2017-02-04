@@ -2,7 +2,7 @@
 
 body {
 	margin: 0px;
-	background: #f4f4f4;
+	background: #f2f2f2;
 }
 
 header {
@@ -99,9 +99,9 @@ li.dropdown {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 80px;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	position: absolute;
 	color: white;
 }
@@ -121,9 +121,9 @@ li.dropdown {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 36px;
-    top: 64%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	top: 64%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	position: absolute;
 	color: white;
 }
