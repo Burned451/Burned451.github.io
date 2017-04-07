@@ -85,8 +85,8 @@ li.dropdown {
 
 .header-wrapper {
 	position: relative;
-	margin-top: 50px;
-	height: 196px;
+	margin-top: 42px;
+	height: 226px;
 	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat;
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
@@ -101,7 +101,7 @@ li.dropdown {
 	position: absolute;
 	color: white;
 	border: 7px solid white;
-	padding: 0px 22px 4px 22px;
+	padding: 0px 22px 3px 22px;
 }
 
 .main {
@@ -116,7 +116,7 @@ li.dropdown {
 	background-color: white;
 	width: calc(100% - 300px);
 	border-radius: 2px;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 }
 
 .content-padding {
@@ -129,7 +129,7 @@ li.dropdown {
 	background-color: white;
 	width: 284px;
 	border-radius: 2px;
-    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 	float: right;
 }
 
