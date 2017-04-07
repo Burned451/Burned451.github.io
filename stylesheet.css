@@ -5,6 +5,7 @@
 body {
 	margin: 0px;
 	background: #f0f0f0;
+	-webkit-text-size-adjust: none;
 }
 
 header {
