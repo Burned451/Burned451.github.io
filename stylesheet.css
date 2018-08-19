@@ -127,25 +127,14 @@ li.dropdown {
 
 .content {
 	display: inline-block;
-	margin: 16px 16px 16px 0px;
 	background-color: white;
-	width: calc(100% - 300px);
+	width: 100%;
 	border-radius: 2px;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 }
 
 .content-padding {
 	padding: 30px 42px 42px 42px;
-}
-
-.sidebar {
-	display: inline-block;
-	margin: 16px 0px;
-	background-color: white;
-	width: 284px;
-	border-radius: 2px;
-	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
-	float: right;
 }
 
 h3 {
