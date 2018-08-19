@@ -104,6 +104,7 @@ li.dropdown {
 	color: white;
 	border: 7px solid white;
 	padding: 0px 22px 3px 22px;
+	z-index: 1;
 }
 
 .header-image {
