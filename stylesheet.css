@@ -40,6 +40,7 @@ ul {
 }
 
 .content-wrapper {
+	display: flex;
 	max-width: var(--content-width);
 	margin: auto;
 }
@@ -145,6 +146,16 @@ li.dropdown {
 
 .content-padding {
 	padding: 30px 42px 42px 42px;
+}
+
+.content-tile {
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: white;
+	width: 30%;
+	min-height: 40px;
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	
 }
 
 h3 {
