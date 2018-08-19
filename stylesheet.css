@@ -39,7 +39,7 @@ ul {
 	display: inline;
 }
 
-.page-wrapper {
+.content-wrapper {
 	max-width: var(--content-width);
 	margin: auto;
 }
