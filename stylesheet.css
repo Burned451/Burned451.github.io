@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
+--content-width: 1000px;
+
 /* ================ MAIN ================ */
 
 body {
@@ -33,6 +35,11 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	display: inline;
+}
+
+.page-wrapper {
+	max-width: var(--content-width);
+	margin: auto;
 }
 
 header li {
@@ -114,12 +121,6 @@ li.dropdown {
 	height: 100%;
 	mix-blend-mode: multiply;
 	filter: grayscale(100%) blur(5px);
-}
-
-.main {
-	width: 1000px;
-	margin: auto;
-	display: flex;
 }
 
 .content {
