@@ -85,10 +85,10 @@ li.dropdown {
 }
 
 .header-wrapper {
+	background: #1F494D;
 	position: relative;
 	margin-top: 42px;
 	height: 226px;
-/*	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat; */
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -107,6 +107,10 @@ li.dropdown {
 
 .header-image {
 	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat;
+	width: 100%;
+	height: 100%;
+	mix-blend-mode: multiply;
+	filter: grayscale(100%);
 }
 
 .main {
