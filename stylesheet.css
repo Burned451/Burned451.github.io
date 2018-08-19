@@ -41,6 +41,7 @@ ul {
 
 .content-wrapper {
 	display: flex;
+	justify-content: space-between;
 	max-width: var(--content-width);
 	margin: auto;
 }
@@ -98,7 +99,7 @@ li.dropdown {
 .header-wrapper {
 	background: #4477b1;
 	position: relative;
-	margin-top: 42px;
+	margin: 42px 0 16px 0;
 	height: 360px;
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
@@ -150,7 +151,6 @@ li.dropdown {
 
 .content-tile {
 	flex-wrap: wrap;
-	justify-content: space-between;
 	background-color: white;
 	width: 30%;
 	min-height: 40px;
