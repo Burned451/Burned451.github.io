@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
-@font-face { font-family: ProductSans; src: url(fonts\Product_Sans_Regular.ttf); }
+@font-face { font-family: 'ProductSans'; src: url(fonts\Product_Sans_Regular.ttf); }
 
 /* ================ MAIN ================ */
 
@@ -19,7 +19,7 @@ header {
 }
 
 h1 {
-	font-family: 'ProductSans', sans-serif;
+	font-family: Open Sans, sans-serif;
 	font-weight: 300;
 	font-size: 20px;
 	line-height: 40px;
@@ -95,7 +95,7 @@ li.dropdown {
 }
 
 .header-title {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'ProductSans', sans-serif;
 	font-weight: 600;
 	font-size: 50px;
 	top: 50%;
