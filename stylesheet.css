@@ -88,7 +88,7 @@ li.dropdown {
 	position: relative;
 	margin-top: 42px;
 	height: 226px;
-	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat;
+/*	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat; */
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -103,6 +103,10 @@ li.dropdown {
 	color: white;
 	border: 7px solid white;
 	padding: 0px 22px 3px 22px;
+}
+
+.header-image {
+	background: url(images/general/naut-background.png) 50% 50% / cover no-repeat;
 }
 
 .main {
