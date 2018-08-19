@@ -108,12 +108,9 @@ li.dropdown {
 	font-weight: 600;
 	font-size: 50px;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translateY(-50%);
 	position: absolute;
 	color: white;
-	border: 7px solid white;
-	padding: 0px 22px 3px 22px;
 	z-index: 1;
 }
 
