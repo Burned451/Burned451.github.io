@@ -56,12 +56,13 @@ header li {
 li a, .dropdown-button {
 	display: block;
 	text-align: center;
-	padding: 10px 18px;
+	padding: 0 18px;
 	text-decoration: none;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
 	color: black;
+	line-height: var(--header-height);
 	background-color: white;
 	transition: 0.2s;
 }
@@ -81,12 +82,13 @@ li.dropdown {
 }
 
 .dropdown-content a {
-	color: black;
+	display: block;
 	background-color: #f1f1f1;
 	padding: 9px 18px;
 	font-size: 14px;
+	color: black;
+	line-height: normal;
 	text-decoration: none;
-	display: block;
 	text-align: left;
 	transition: 0.2s;
 }
