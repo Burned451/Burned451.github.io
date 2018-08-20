@@ -102,7 +102,7 @@ li.dropdown {
 .header-wrapper {
 	background: #4477b1;
 	position: relative;
-	margin: 42px 0 16px 0;
+	margin: var(--header-height) 0 16px 0;
 	height: 360px;
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
