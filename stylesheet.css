@@ -149,20 +149,25 @@ li.dropdown {
 
 .content-tile {
 	background-color: white;
+	padding: 16px;
 	width: calc((var(--content-width) - 32px) / 3);
 	min-height: 40px;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
-	
+	box-sizing: border-box;
 }
 
 .home-icon {
-	background-size: 28px;
+	display: inline-block;
+	background-size: 22px;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-color: #4477b1;
-	padding: 8px;
-	width: 28px;
-	height: 28px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	padding: 6px;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
 	border-radius: 50%;
 }
 
@@ -171,19 +176,19 @@ li.dropdown {
 .content-tile:nth-child(3) .home-icon { background-image: url(icons/icon-about.png); }
 
 h3 {
-	font-family: 'Open Sans', sans-serif;
+	display: inline-block;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 24px;
-	text-align: center;
-	margin: 12px 0px 4px 0px;
+	font-size: 20px;
+	vertical-align: middle;
 }
 
 h4 {
+	margin: 2px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
-	font-size: 16px;
-	text-align: center;
-	margin: -4px 0px 0px 0px;
+	font-size: 14px;
 }
 
 /* ================ GALLERY ================ */
