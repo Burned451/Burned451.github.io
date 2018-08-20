@@ -156,7 +156,9 @@ li.dropdown {
 }
 
 .home-icon {
-	background-size: contain;
+	background-size: 28px;
+	background-position: 50%;
+	background-repeat: no-repeat;
 	background-color: #4477b1;
 	padding: 8px;
 	width: 28px;
