@@ -108,7 +108,6 @@ li.dropdown {
 
 .header-title, .header-subtitle {
 	margin-left: 16px;
-	font-weight: 400;
 	top: 50%;
 	position: absolute;
 	color: white;
@@ -117,12 +116,14 @@ li.dropdown {
 
 .header-title {
 	font-family: Montserrat, sans-serif;
+	font-weight: 300;
 	font-size: 50px;
 	transform: translateY(-70%);
 }
 
 .header-subtitle {
 	font-family: Open Sans, sans-serif;
+	font-weight: 400;
 	font-size: 20px;
 	transform: translateY(50%);
 }
