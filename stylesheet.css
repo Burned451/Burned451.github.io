@@ -154,6 +154,7 @@ li.dropdown {
 
 .content-tile {
 	background-color: white;
+	margin-bottom: 16px;
 	padding: 16px;
 	width: calc((var(--content-width) - 32px) / 3);
 	min-height: 40px;
