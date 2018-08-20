@@ -183,10 +183,6 @@ li.dropdown {
 	border-radius: 50%;
 }
 
-.content-tile:nth-child(1) .home-icon { background-image: url(icons/icon-camera.png); }
-.content-tile:nth-child(2) .home-icon { background-image: url(icons/icon-globe.png); }
-.content-tile:nth-child(3) .home-icon { background-image: url(icons/icon-user.png); }
-
 h3 {
 	display: inline-block;
 	margin: 0;
