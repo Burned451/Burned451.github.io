@@ -156,13 +156,17 @@ li.dropdown {
 }
 
 .home-icon {
-	background-image: url(icons/icon-picture.png);
+	background-size: contain;
 	background-color: #4477b1;
 	padding: 8px;
 	width: 28px;
 	height: 28px;
 	border-radius: 50%;
 }
+
+.home-icon:nth-child(1) { background-image: url(icons/icon-picture.png); }
+.home-icon:nth-child(2) { background-image: url(icons/icon-video.png); }
+.home-icon:nth-child(3) { background-image: url(icons/icon-about.png); }
 
 h3 {
 	font-family: 'Open Sans', sans-serif;
