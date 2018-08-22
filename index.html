@@ -1,16 +1,16 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="stylesheet.css">
 		<link rel="shortcut icon" type="image/x-icon" href="images/general/eb-shortcut-icon.png"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script src="script.js"></script>
 		<title>
 			Edward Boguslavsky - Home
 		</title>
 	</head>
 	<body>
 		<div id="nav-bar"></div>
-		<div class="header-wrapper">
+		<div class="header-wrapper" id="mobile-2">
 			<div class="content-wrapper">
 				<div class="header-title">
 					Home
@@ -21,7 +21,7 @@
 			</div>
 			<div class="header-image"></div>
 		</div>
-		<div class="content-wrapper">
+		<div class="content-wrapper" id="mobile-3">
 			<div class="content-tile">
 				<div class="home-icon" style="background-image: url(icons/icon-camera.png);"></div>
 				<h3>
@@ -53,5 +53,7 @@
 	</body>
 	<script text="text/javascript">
 		$('#nav-bar').load('nav-bar.html');
+		
+		
 	</script>
 </html>
