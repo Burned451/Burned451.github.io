@@ -42,11 +42,9 @@ ul {
 }
 
 .content-wrapper {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	max-width: var(--content-width);
 	margin: auto;
+	max-width: var(--content-width);
+	font-size: 0;
 }
 
 header li {
@@ -153,6 +151,7 @@ li.dropdown {
 }
 
 .content-tile {
+	display: inline-block;
 	background-color: white;
 	margin-bottom: 16px;
 	padding: 16px;
