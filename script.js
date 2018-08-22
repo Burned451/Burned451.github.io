@@ -6,7 +6,7 @@ function toggle_mobile_view(obj) {
   if($(obj).is(":checked")){
 	document.getElementById("mobile-1").style.width = "360px";
 	document.getElementById("mobile-1").style.left = "50%";
-	document.getElementById("mobile-1").style.transform = "translate-x(-50%)";
+	document.getElementById("mobile-1").style.transform = "translateX(-50%)";
 	
 	document.getElementById("mobile-2").style.width = "360px";
 	document.getElementById("mobile-2").style.marginLeft = "auto";
