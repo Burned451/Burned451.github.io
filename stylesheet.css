@@ -4,6 +4,8 @@
 :root {
 	--header-height: 50px;
 	--content-width: 1000px;
+	--header-blue: #294e77;
+	--paragraph-blue-grey: #606770;
 }
 
 /* ================ MAIN ================ */
@@ -190,7 +192,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	color: #243f5c;
+	color: var(--header-blue);
 	vertical-align: middle;
 }
 
@@ -199,6 +201,7 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
+	color: var(--paragraph-blue-grey);
 }
 
 /* ================ GALLERY ================ */
