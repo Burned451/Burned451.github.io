@@ -53,6 +53,31 @@ header li {
 	float: right;
 }
 
+header .dropdown {
+	display: inline-block;
+	background-size: 24px;
+	background-position: 50%;
+	background-repeat: no-repeat;
+	width: var(--header-height);
+	height: var(--header-height);
+}
+
+header .dropdown:hover header .dropdown-content {
+	display: block;
+}
+
+header .dropdown-content {
+	display: none;
+	position: absolute;
+}
+
+header .dropdown-content > div, header .dropdown-content > a {
+	display: block;
+	background-color: white;
+	padding: 6px;
+}
+
+/*
 li a, .dropdown-button, .dropdown-button-settings {
 	display: block;
 	text-align: center;
@@ -104,6 +129,7 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+*/
 
 .header-wrapper {
 	background: var(--header-blue);
