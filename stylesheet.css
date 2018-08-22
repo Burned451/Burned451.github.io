@@ -99,7 +99,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	transition: 0.1s ease-in-out;
 }
 
-.slider {
+.switch {
 	display: inline-block;
 	position: relative;
 	height: 22px;
