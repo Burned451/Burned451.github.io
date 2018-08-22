@@ -173,14 +173,14 @@ input:checked + .slider:before {
 	font-family: Montserrat, sans-serif;
 	font-weight: 300;
 	font-size: 50px;
-	transform: translateY(-70%);
+	transform: translateY(-42px);
 }
 
 .header-subtitle {
 	font-family: Open Sans, sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-	transform: translateY(50%);
+	transform: translateY(13px);
 }
 
 .header-image {
