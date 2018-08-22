@@ -157,7 +157,6 @@ li.dropdown {
 	margin-bottom: 16px;
 	padding: 16px;
 	width: calc((var(--content-width) - 32px) / 3);
-	min-height: 40px;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 	box-sizing: border-box;
 	transition: 0.1s ease-in-out;
@@ -168,14 +167,17 @@ li.dropdown {
 	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.14);
 }
 
+.content-tile:nth-child(3n + 2) {
+	margin: 0 16px 16px 16px;
+}
+
 .home-icon {
 	display: inline-block;
 	background-size: 22px;
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-color: #4477b1;
-	margin-right: 4px;
-	margin-bottom: 4px;
+	margin: 0 8px 4px 0;
 	padding: 6px;
 	width: 22px;
 	height: 22px;
