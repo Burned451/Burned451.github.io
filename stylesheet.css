@@ -70,6 +70,8 @@ header .dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: white;
+	top: var(--header-height);
+	right: 0;
 }
 
 header .dropdown:hover .dropdown-content {
