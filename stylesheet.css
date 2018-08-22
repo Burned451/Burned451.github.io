@@ -102,7 +102,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 .switch {
 	display: inline-block;
 	position: relative;
-	height: 22px;
+	height: 18px;
 	width: 40px;
 }
 
@@ -117,21 +117,22 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	left: 0;
 	height: 100%;
 	width: 100%;
-	border-radius: 999px;
+	border-radius: 99px;
+	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
-	transition: 0.1s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 .slider:before {
 	content: '';
 	position: absolute;
 	background: white;
-	height: 18px;
-	width: 18px;
+	height: 14px;
+	width: 14px;
 	top: 2px;
 	left: 2px;
 	border-radius: 50%;
-	transition: 0.1s ease-in-out;
+	transition: 0.2s ease-in-out;
 }
 
 input:checked + .slider {
