@@ -108,7 +108,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 .switch {
 	display: inline-block;
 	position: relative;
-	margin: -2px 0 0 6px;
+	margin: -2px 6px 0 0;
 	height: 18px;
 	width: 40px;
 	vertical-align: middle;
