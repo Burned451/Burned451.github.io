@@ -121,8 +121,8 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	width: 100%;
 	border-radius: 99px;
 	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
-	cursor: pointer;
 	transition: 0.1s ease-in-out;
+	cursor: pointer;
 }
 
 .slider:before {
@@ -134,6 +134,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	top: 2px;
 	left: 2px;
 	border-radius: 50%;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
 	transition: 0.1s ease-in-out;
 }
 
