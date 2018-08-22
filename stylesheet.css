@@ -102,8 +102,10 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 .switch {
 	display: inline-block;
 	position: relative;
+	margin: -2px 0 0 6px;
 	height: 18px;
 	width: 40px;
+	vertical-align: middle;
 }
 
 .switch input {
@@ -120,7 +122,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	border-radius: 99px;
 	box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.1);
 	cursor: pointer;
-	transition: 0.2s ease-in-out;
+	transition: 0.1s ease-in-out;
 }
 
 .slider:before {
@@ -132,7 +134,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	top: 2px;
 	left: 2px;
 	border-radius: 50%;
-	transition: 0.2s ease-in-out;
+	transition: 0.1s ease-in-out;
 }
 
 input:checked + .slider {
@@ -140,8 +142,7 @@ input:checked + .slider {
 }
 
 input:checked + .slider:before {
-	left: auto;
-	right: 2px;
+	transform: translateX(22px);
 }
 
 /*
