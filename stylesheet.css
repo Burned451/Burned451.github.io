@@ -449,3 +449,11 @@ footer li {
 	text-align: center;
 }
 */
+
+/* ================ SETTINGS ================ */
+
+input.mobile-view:checked + header,
+input.mobile-view:checked + .header-wrapper,
+input.mobile-view:checked + body > .content-wrapper {
+	width: 360px;
+}
