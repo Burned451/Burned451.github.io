@@ -4,7 +4,7 @@
 :root {
 	--header-height: 50px;
 	--content-width: 1000px;
-	--header-blue: #294e77;
+	--header-blue: #4172aa;
 	--paragraph-blue-grey: #606770;
 }
 
@@ -102,7 +102,7 @@ li.dropdown {
 }
 
 .header-wrapper {
-	background: #4477b1;
+	background: var(--header-blue);
 	position: relative;
 	margin: var(--header-height) 0 16px 0;
 	height: 360px;
@@ -177,7 +177,7 @@ li.dropdown {
 	background-size: 22px;
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-color: #4477b1;
+	background-color: var(--header-blue);
 	margin: 0 8px 4px 0;
 	padding: 6px;
 	width: 22px;
