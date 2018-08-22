@@ -79,7 +79,7 @@ header .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-header .dropdown-content > * {
+header .dropdown-content > div, header .dropdown-content > a {
 	display: block;
 	background-color: #f1f1f1;
 	padding: 9px 18px;
@@ -93,7 +93,7 @@ header .dropdown-content > a:hover {
 	background-color: #e1e1e1;
 }
 
-header .dropdown, header .dropdown-content > * {
+header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	transition: 0.1s ease-in-out;
