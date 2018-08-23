@@ -8,7 +8,7 @@ function toggle_mobile_view(obj) {
 	document.getElementById("mobile-1").style.left = "50%";
 	document.getElementById("mobile-1").style.transform = "translateX(-50%)";
 	
-	document.getElementById("mobile-2").style.width = "360px";
+	document.getElementById("mobile-2").style.maxWidth = "360px";
 	document.getElementById("mobile-2").style.marginLeft = "auto";
 	document.getElementById("mobile-2").style.marginRight = "auto";
 	
@@ -23,7 +23,7 @@ function toggle_mobile_view(obj) {
 	document.getElementById("mobile-2").style.marginLeft = "0";
 	document.getElementById("mobile-2").style.marginRight = "0";
 	
-    document.getElementById("mobile-3").style.width = "1000px";
+    document.getElementById("mobile-3").style.maxWidth = "1000px";
   }
   
 }
