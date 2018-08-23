@@ -8,11 +8,11 @@ function toggle_mobile_view(obj) {
 	document.getElementById("mobile-1").style.left = "50%";
 	document.getElementById("mobile-1").style.transform = "translateX(-50%)";
 	
-	document.getElementById("mobile-2").style.maxWidth = "360px";
+	document.getElementById("mobile-2").style.width = "360px";
 	document.getElementById("mobile-2").style.marginLeft = "auto";
 	document.getElementById("mobile-2").style.marginRight = "auto";
 	
-    document.getElementById("mobile-3").style.width = "360px";
+    document.getElementById("mobile-3").style.maxWidth = "360px";
   }
   else {
 	document.getElementById("mobile-1").style.width = "100%";
