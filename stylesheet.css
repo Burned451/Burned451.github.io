@@ -274,7 +274,7 @@ h4 {
 }
 
 p {
-	margin: 8px 12px;
+	margin: 0 0 8px 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 16px;
@@ -494,13 +494,13 @@ footer li {
 }
 
 .img-p-wrapper {
-	margin-left: 12px;
+	margin: 10px 0 0 10px;
 }
 
 .eportfolio-images {
 	display: inline-block;
-	width: 25%;
 	margin: 0 12px 8px 0;
+	width: 250px;
 	float: left;
 }
 
