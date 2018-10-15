@@ -499,8 +499,8 @@ footer li {
 
 .eportfolio-images {
 	display: inline-block;
-	margin: 0 12px 8px 0;
-	width: 250px;
+	margin: 0 14px 0 0;
+	height: 230px;
 	float: left;
 }
 
