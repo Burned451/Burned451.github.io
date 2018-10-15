@@ -222,9 +222,10 @@ input:checked + .slider:before {
 .content {
 	display: inline-block;
 	background-color: white;
+	padding: 16px;
 	width: 100%;
-	border-radius: 2px;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	box-sizing: border-box;
 }
 
 .content-padding {
@@ -269,6 +270,13 @@ h4 {
 	font-weight: 400;
 	font-size: 14px;
 	color: var(--paragraph-blue-grey);
+}
+
+p {
+	margin: 8px 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
 }
 
 /* ================ GALLERY ================ */
