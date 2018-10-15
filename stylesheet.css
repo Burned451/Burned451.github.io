@@ -489,10 +489,19 @@ footer li {
 
 /* ================ SETTINGS ================ */
 
-.eportfolio-images {
+.content > h3 {
 	display: block;
-	width: 35%;
-	margin: 8px 12px;
+}
+
+.img-p-wrapper {
+	margin-left: 12px;
+}
+
+.eportfolio-images {
+	display: inline-block;
+	width: 25%;
+	margin: 0 12px 8px 0;
+	float: left;
 }
 
 input.mobile-view:checked + header,
