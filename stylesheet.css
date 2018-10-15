@@ -489,6 +489,12 @@ footer li {
 
 /* ================ SETTINGS ================ */
 
+.eportfolio-images {
+	display: block;
+	width: 35%;
+	margin: 8px 12px;
+}
+
 input.mobile-view:checked + header,
 input.mobile-view:checked + .header-wrapper,
 input.mobile-view:checked + body > .content-wrapper {
