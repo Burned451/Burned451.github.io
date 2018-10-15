@@ -222,7 +222,7 @@ input:checked + .slider:before {
 .content {
 	display: inline-block;
 	background-color: white;
-	padding: 16px;
+	padding: 32px;
 	width: 100%;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
 	box-sizing: border-box;
@@ -276,7 +276,7 @@ p {
 	margin: 8px 12px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 /* ================ GALLERY ================ */
