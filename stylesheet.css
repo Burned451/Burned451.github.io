@@ -71,7 +71,7 @@ ul {
 }
 
 .content-wrapper {
-	margin: auto;
+	margin: 16px auto;
 	max-width: var(--content-width);
 	font-size: 0;
 }
@@ -183,7 +183,7 @@ input:checked + .slider:before {
 .header-wrapper {
 	background: var(--header-blue);
 	position: relative;
-	margin: var(--header-height) 0 16px 0;
+	margin: var(--header-height) 0 0 0;
 	height: 360px;
 	box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.1);
 	overflow: hidden;
@@ -222,6 +222,7 @@ input:checked + .slider:before {
 .content {
 	display: inline-block;
 	background-color: white;
+	margin-bottom: 
 	padding: 32px;
 	width: 100%;
 	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
