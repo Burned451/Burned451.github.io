@@ -11,10 +11,11 @@
 /* ================ MAIN ================ */
 
 body {
-	display: grid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background: #4f4f4f;
 	margin: 0px;
-	height: 100%
 }
 
 body.construction:before {
