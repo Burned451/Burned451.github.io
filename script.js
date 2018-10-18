@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 	$('#nav-bar').load('nav-bar.html');
+	$('#mobile-nav-bar').unwrap();
 });
 
 function toggle_mobile_view(obj) {
