@@ -1,7 +1,4 @@
 $( document ).ready(function() {
-//	$('#nav-bar').load('nav-bar.html');
-//	$('#mobile-nav-bar').unwrap();
-
 	$.get("nav-bar.html", function(data) {
 		$("#nav-bar").replaceWith(data);
 	});
