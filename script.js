@@ -1,6 +1,10 @@
 $( document ).ready(function() {
-	$('#nav-bar').load('nav-bar.html');
+//	$('#nav-bar').load('nav-bar.html');
+//	$('#mobile-nav-bar').unwrap();
 
+	$.get("nav-bar.html", function(data) {
+		$("#nav-bar").replaceWith(data);
+	});
 });
 
 function toggle_mobile_view(obj) {
@@ -11,8 +15,6 @@ function toggle_mobile_view(obj) {
 	document.getElementById("mobile-nav-bar").style.width = "342px";
 	document.getElementById("mobile-nav-bar").style.top = "calc(50% - 320px)";
 	document.getElementById("mobile-nav-bar").style.left = "calc(50% - 180px)";
-	
-		$('#mobile-nav-bar').unwrap();
   }
   else {
 	document.getElementById("mobile-wrapper").style.width = "100%";
