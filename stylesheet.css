@@ -76,7 +76,16 @@ ul {
 	font-size: 0;
 }
 
-body > .content-wrapper {
+#mobile-wrapper {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: 100%;
+	overflow-x: scroll;
+	transition: 1s ease-in-out;
+}
+
+#mobile-wrapper > .content-wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
 	grid-gap: 16px;
@@ -503,10 +512,4 @@ footer li {
 	margin: 0 14px 0 0;
 	height: 230px;
 	float: left;
-}
-
-input.mobile-view:checked + header,
-input.mobile-view:checked + .header-wrapper,
-input.mobile-view:checked + body > .content-wrapper {
-	width: 360px;
 }
