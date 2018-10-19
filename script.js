@@ -14,7 +14,7 @@ function toggle_mobile_view(obj) {
   }
   else {
 	document.getElementById("mobile-wrapper").style.width = "100%";
-	document.getElementById("mobile-wrapper").style.height = "100%";
+	document.getElementById("mobile-wrapper").style.height = "auto";
   }
   
 }
