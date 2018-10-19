@@ -292,6 +292,7 @@ p {
 	font-weight: 300;
 	font-size: 15px;
 	line-height: 26px;
+	text-align: justify;
 }
 
 /* ================ GALLERY ================ */
@@ -516,4 +517,10 @@ footer li {
 	margin: 0 14px 0 0;
 	height: 230px;
 	float: left;
+}
+
+@media only screen and (max-width: 600px) {
+	.dropdown-content div:last-child {
+		display: none;
+	}
 }
