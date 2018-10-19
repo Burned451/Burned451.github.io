@@ -203,10 +203,14 @@ input:checked + .slider:before {
 	overflow: hidden;
 }
 
+.header-text {
+	position: absolute;
+	top: 50%;
+	transform: translateX(-50%);
+}
+
 .header-title, .header-subtitle {
 	margin: 0 16px;
-	top: 50%;
-	position: absolute;
 	color: white;
 	z-index: 1;
 }
@@ -215,14 +219,12 @@ input:checked + .slider:before {
 	font-family: Montserrat, sans-serif;
 	font-weight: 300;
 	font-size: 50px;
-	transform: translateY(-42px);
 }
 
 .header-subtitle {
 	font-family: Open Sans, sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-	transform: translateY(13px);
 }
 
 .header-image {
