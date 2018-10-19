@@ -205,13 +205,10 @@ input:checked + .slider:before {
 
 .header-text {
 	position: absolute;
-	top: 50%;
-	transform: translateX(-50%);
-}
-
-.header-title, .header-subtitle {
 	margin: 0 16px;
+	top: 50%;
 	color: white;
+	transform: translateY(-50%);
 	z-index: 1;
 }
 
