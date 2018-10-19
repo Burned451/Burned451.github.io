@@ -11,12 +11,12 @@ function toggle_mobile_view(obj) {
   if($(obj).is(":checked")){
 	document.getElementById("mobile-wrapper").style.width = mobile_width + "px";
 	document.getElementById("mobile-wrapper").style.height = mobile_height + "px";
-	document.getElementById("mobile-wrapper").style.min-height = "auto";
+	document.getElementById("mobile-wrapper").style.minHeight = "auto";
   }
   else {
 	document.getElementById("mobile-wrapper").style.width = "100%";
 	document.getElementById("mobile-wrapper").style.height = "auto";
-	document.getElementById("mobile-wrapper").style.min-height = "100%";
+	document.getElementById("mobile-wrapper").style.minHeight = "100%";
   }
   
 }
