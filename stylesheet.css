@@ -83,6 +83,7 @@ ul {
 	position: relative;
 	background: #f0f0f0;
 	margin: auto;
+	width: 100%;
 	max-height: unset;
 	min-height: 100%;
 	overflow-x: overlay;
