@@ -452,57 +452,7 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 	border-radius: 4px;
 }
 
-/*
-footer {
-	width: 100%;
-	margin-top: -46px;
-	background: white;
-	border-top: 1px solid #b3b3b3;
-	text-align: center;
-	position: relative;
-}
-
-footer li {
-	display: inline-block;
-}
-
-.speaker-list, .speaker-list-ul {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	margin-left: 280px;
-}
-
-.speaker-list-ul {
-	display: inline-block;
-	margin-left: 300px;
-}
-
-.speaker-table {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	width: 900px;
-	text-align: center;
-}
-
-.speaker-image {
-	height: 160px;
-	margin-top: 2px;
-	margin-left: 24px;
-	margin-bottom: 4px;
-	border-radius: 6px;
-}
-
-.speaker-text {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
-	font-size: 18px;
-	text-align: center;
-}
-*/
-
-/* ================ SETTINGS ================ */
+/* ================ EPORTFOLIO ================ */
 
 .content > h3 {
 	display: block;
@@ -518,6 +468,8 @@ footer li {
 	height: 230px;
 	float: left;
 }
+
+/* ================ MEDIA QUERY ================ */
 
 @media only screen and (max-width: 600px) {
 	.dropdown-content div:last-child {
