@@ -445,7 +445,7 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	filter: grayscale(100%);
+	filter: grayscale(80%);
 	opacity: 0.6;
 	transition: 0.2s ease-in-out;
 }
