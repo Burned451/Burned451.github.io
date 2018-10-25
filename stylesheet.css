@@ -434,22 +434,26 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 /* ================ ABOUT ================ */
 
 .social-icon-wrapper {
-	width: 100%;
 	margin-top: 7px;
+	width: 100%;
 	text-align: center;
 }
 
 .social-icon {
+	display: inline-block;
+	margin: 0px 6px;
 	width: 32px;
 	height: 32px;
 	border-radius: 50%;
-	display: inline-block;
-	margin: 0px 6px;
+	filter: grayscale(100%);
+	opacity: 0.6;
 	transition: 0.2s ease-in-out;
 }
 
 .social-icon:hover {
 	border-radius: 6px;
+	filter: grayscale(0%);
+	opacity: 1;
 }
 
 /* ================ EPORTFOLIO ================ */
