@@ -254,7 +254,7 @@ input:checked + .slider:before {
 	box-sizing: border-box;
 }
 
-.home-icon {
+.tile-icon {
 	display: inline-block;
 	background-size: 22px;
 	background-position: 50%;
