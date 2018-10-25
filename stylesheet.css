@@ -84,7 +84,7 @@ ul {
 	background: #f0f0f0;
 	margin: auto;
 	width: 100%;
-	max-height: unset;
+	max-height: initial;
 	min-height: 100%;
 	overflow-x: overlay;
 	transition: 0.75s ease-in-out;
