@@ -434,16 +434,27 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 
 .social-icon-wrapper {
 	display: flex;
-	margin-top: 7px;
+	justify-content: center;
+	margin-top: 8px;
 }
 
 .social-icon {
-	justify-content: center;
+	position: relative;
+	margin: 0 6px;
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.social-icon > * {
+	position: absolute;
+	width: 100%;
 	transition: 0.2s ease-in-out;
 }
 
-.social-icon:hover {
-	
+.social-icon:hover .social-icon-grayscale {
+	opacity: 0;
 }
 
 /* ================ EPORTFOLIO ================ */
