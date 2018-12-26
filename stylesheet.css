@@ -450,7 +450,7 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 .social-icon > * {
 	position: absolute;
 	width: 100%;
-	transition: 0.2s ease-in-out;
+	transition: 0.25s ease-in-out;
 }
 
 .social-icon:hover .social-icon-grayscale {
