@@ -433,26 +433,17 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 /* ================ ABOUT ================ */
 
 .social-icon-wrapper {
+	display: flex;
 	margin-top: 7px;
-	width: 100%;
-	text-align: center;
 }
 
 .social-icon {
-	display: inline-block;
-	margin: 0px 6px;
-	width: 32px;
-	height: 32px;
-	border-radius: 50%;
-	filter: grayscale(80%);
-	opacity: 0.6;
+	justify-content: center;
 	transition: 0.2s ease-in-out;
 }
 
 .social-icon:hover {
-	border-radius: 6px;
-	filter: grayscale(0%);
-	opacity: 1;
+	
 }
 
 /* ================ EPORTFOLIO ================ */
