@@ -9,10 +9,6 @@
 		<script>
 			$(document).ready(function() {
 				$("#dynamic-content").load("home.html");
-			
-				$.getJSON('page-info.json', function(info) {
-					$('.header-title').html(info.homepage.title);
-				});
 			});
 		</script>
 		<title>

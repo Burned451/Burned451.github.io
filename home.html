@@ -1,3 +1,13 @@
+<head>
+	<script>
+		$(document).ready(function() {
+			$.getJSON('page-info.json', function(info) {
+				$('.header-title').html(info.homepage.title);
+			});
+		});
+	</script>
+</head>
+				
 <div class="content-tile">
 	<div class="tile-icon" style="background-image: url(icons/icon-camera.png);"></div>
 	<h3>
