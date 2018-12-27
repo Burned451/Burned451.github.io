@@ -2,7 +2,9 @@
 	<script>
 		$(document).ready(function() {
 			$.getJSON('page-info.json', function(info) {
+				$('title').html('Edward Boguslavsky - ' + info.homepage.title);
 				$('.header-title').html(info.homepage.title);
+				$('.header-subtitle').html(info.homepage.description);
 			});
 		});
 	</script>
