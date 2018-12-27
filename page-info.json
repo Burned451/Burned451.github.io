@@ -1,5 +1,5 @@
 {
-	"homepage":{ "title":"Test", "description":"An introduction to the site's content", "filepath":"index.html" },
+	"homepage":{ "title":"Home", "description":"An introduction to the site's content", "filepath":"index.html" },
 	"gallerypage":{ "title":"Gallery", "description":"Photographs I have taken during my travels and spare time", "filepath":"gallery.html" },
 	"linkspage":{ "title":"Links", "description":"Other enjoyable media to keep you busy", "filepath":"links.html" },
 	"aboutpage":{ "title":"About", "description":"Additional information about me and different ways to keep in touch", "filepath":"about.html" }
