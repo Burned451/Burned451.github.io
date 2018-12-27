@@ -6,16 +6,45 @@
 		<link rel="stylesheet" href="stylesheet.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
-		<script>
-			$(document).ready(function() {
-				$("#dynamic-content").load("home.html");
-			});
-		</script>
 		<title></title>
 	</head>
 	<body>
 		<div id="mobile-wrapper">
-			<div id="nav-bar"></div>
+			<header>
+				<div class="content-wrapper">
+					<h1>
+						Edward <span style="font-weight: 600;">Boguslavsky</span>
+					</h1>
+					<ul>
+						<li class="dropdown" style="background-image: url(icons/icon-menu.png);">
+							<div class="dropdown-content">
+								<a href="#">Home</a>
+								<a href="#gallery">Gallery</a>
+								<a href="#links">Links</a>
+								<a href="#about">About</a>
+							</div>
+						</li>
+						<li class="dropdown" style="background-image: url(icons/icon-gear.png);">
+							<div class="dropdown-content">
+								<div>
+									<label class="switch">
+										<input type="checkbox" id="dark-mode">
+										<span class="slider"></span>
+									</label>
+									Toggle Dark Mode
+								</div>
+								<div>
+									<label class="switch">
+										<input type="checkbox" id="mobile-view" onclick="toggle_mobile_view(this)">
+										<span class="slider"></span>
+									</label>
+									Toggle Mobile View
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</header>
 			<div class="header-wrapper">
 				<div class="content-wrapper">
 					<div class="header-text">
@@ -25,9 +54,7 @@
 				</div>
 				<div class="header-image"></div>
 			</div>
-			<div class="content-wrapper" id="dynamic-content">
-				
-			</div>
+			<div class="content-wrapper" id="dynamic-content"></div>
 		</div>
 	</body>
 </html>

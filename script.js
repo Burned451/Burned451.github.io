@@ -1,10 +1,14 @@
-const mobile_width = 360;
-const mobile_height = 640;
+$(document).ready(function() {
+	$("#dynamic-content").load("home.html");
+});
 
-$( document ).ready(function() {
-	$.get("nav-bar.html", function(data) {
-		$("#nav-bar").replaceWith(data);
-	});
+$(".dropdown-content a").click(function(){
+	$("#dynamic-content").empty();
+	if ($(this).attr('href') == '#') {
+		$("#dynamic-content").load("home.html");
+	} else {
+		$("#dynamic-content").load("about.html");
+	}
 });
 
 function toggle_mobile_view(obj) {
