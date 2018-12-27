@@ -96,6 +96,11 @@ ul {
 	margin: 16px auto;
 }
 
+#mobile-wrapper::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #00BCD4;
+}
+
 header li {
 	float: right;
 }
