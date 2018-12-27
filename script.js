@@ -1,7 +1,8 @@
 $(document).ready(function() {
 	$("#dynamic-content").load("home.html");
 	
-	$(".dropdown-content a").click(function(){
+	//$(".dropdown-content a").click(function(){
+	$(window).on('hashchange', function() {		
 		$("#dynamic-content").empty();
 		switch(window.location.hash) {
 			case '#gallery':
