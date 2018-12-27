@@ -7,14 +7,14 @@
 				$('.header-subtitle').html(info.aboutpage.description);
 			});
 			
-			document.getElementsByTagName("h3")[0].innerHTML = window.location.pathname;
+			document.getElementById("demo").innerHTML = window.location.pathname;
 		});
 	</script>
 </head>
 
 <div class="content-tile">
 	<div class="tile-icon" style="background-image: url(icons/icon-book.png);"></div>
-	<h3>
+	<h3 id="demo">
 		A short autobiography
 	</h3>
 	<h4>
