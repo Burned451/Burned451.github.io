@@ -1,13 +1,13 @@
 <head>
 	<script>
+		document.getElementById("demo").innerHTML = "test";
+	
 		$(document).ready(function() {
 			$.getJSON('page-info.json', function(info) {
 				$('title').html('Edward Boguslavsky - ' + info.aboutpage.title);
 				$('.header-title').html(info.aboutpage.title);
 				$('.header-subtitle').html(info.aboutpage.description);
 			});
-			
-			document.getElementById("demo").innerHTML = window.location.pathname;
 		});
 	</script>
 </head>
