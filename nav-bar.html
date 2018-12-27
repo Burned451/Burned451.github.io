@@ -2,7 +2,7 @@
 	<script>
 		$(".dropdown-content a").click(function(){
 			$("#dynamic-content").empty();
-			if ($(this).attr('href') == '') {
+			if ($(this).attr('href') == '#') {
 				$("#dynamic-content").load("home.html");
 			} else {
 				$("#dynamic-content").load("about.html");
@@ -19,7 +19,7 @@
 		<ul>
 			<li class="dropdown" style="background-image: url(icons/icon-menu.png);">
 				<div class="dropdown-content">
-					<a href="">Home</a>
+					<a href="#">Home</a>
 					<a href="#gallery">Gallery</a>
 					<a href="#links">Links</a>
 					<a href="#about">About</a>
