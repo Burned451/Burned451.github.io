@@ -1,15 +1,3 @@
-<head>
-	<script>	
-		$(document).ready(function() {
-			$.getJSON('page-info.json', function(info) {
-				$('title').html('Edward Boguslavsky - ' + info.aboutpage.title);
-				$('.header-title').html(info.aboutpage.title);
-				$('.header-subtitle').html(info.aboutpage.description);
-			});
-		});
-	</script>
-</head>
-
 <div class="content-tile">
 	<div class="tile-icon" style="background-image: url(icons/icon-book.png);"></div>
 	<h3>
