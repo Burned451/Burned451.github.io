@@ -2,7 +2,7 @@
 	<script>
 		$(".dropdown-content a").click(function(){
 			$("#dynamic-content").empty();
-			if ($(this).attr('href') == '/') {
+			if ($(this).attr('href') == '') {
 				$("#dynamic-content").load("home.html");
 			} else {
 				$("#dynamic-content").load("about.html");
