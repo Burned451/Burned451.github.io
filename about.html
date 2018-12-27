@@ -7,7 +7,7 @@
 				$('.header-subtitle').html(info.aboutpage.description);
 			});
 			
-			$('h3').html(window.location.pathname);
+			document.getElementsByTagName("h3").innerHTML = window.location.pathname;
 		});
 	</script>
 </head>
