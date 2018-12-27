@@ -8,7 +8,12 @@
 		<script type="text/javascript" src="script.js"></script>
 		<script>
 			$(document).ready(function() {
-				$("#dynamic-content").load("home.html");
+				if (window.location.pathname == '/') {
+					$("#dynamic-content").load("home.html");
+				}
+				else if (window.location.pathname == '/about') {
+					$("#dynamic-content").load("about.html");
+				}
 			});
 		</script>
 		<title></title>

@@ -1,64 +1,44 @@
-<html lang="en">
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="shortcut icon" type="image/x-icon" href="images/general/eb-shortcut-icon.png"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<script type="text/javascript" src="script.js"></script>
-		<title>
-			Edward Boguslavsky - About
-		</title>
-	</head>
-	<body>
-		<div id="mobile-wrapper">
-			<div id="nav-bar"></div>
-			<div class="header-wrapper">
-				<div class="content-wrapper">
-					<div class="header-text">
-						<div class="header-title">
-							About
-						</div>
-						<div class="header-subtitle">
-							Additional information about me and different ways to keep in touch
-						</div>
-					</div>
-				</div>
-				<div class="header-image"></div>
-			</div>
-			<div class="content-wrapper">
-				<div class="content-tile">
-					<div class="tile-icon" style="background-image: url(icons/icon-book.png);"></div>
-					<h3>
-						A short autobiography
-					</h3>
-					<h4>
-						I am a software engineering and web development major at University of Toronto. I built this website for the purpose of sharing my personal work and interests with the rest of the world, and being able to say I own a small piece of the internet
-					</h4>
-				</div>
-				<div class="content-tile">
-					<div class="tile-icon" style="background-image: url(icons/icon-at.png);"></div>
-					<h3>
-						How to contact me
-					</h3>
-					<h4>
-						You can follow, message or keep an eye on my projects with the following links. I will typically respond to messages within 24 hours
-					</h4>
-					<div class="social-icon-wrapper">
-						<a class="social-icon" href="https://www.facebook.com/edward.boguslavsky" target="_blank">
-							<img src="images/about/logo-facebook.png">
-							<img src="images/about/logo-facebook-grayscale.png" class="social-icon-grayscale">
-						</a>
-						<a class="social-icon" href="https://github.com/Burned451" target="_blank">
-							<img src="images/about/logo-github.png">
-							<img src="images/about/logo-github-grayscale.png" class="social-icon-grayscale">
-						</a>
-						<a class="social-icon" href="https://www.reddit.com/user/BurnedR/" target="_blank">
-							<img src="images/about/logo-reddit.png">
-							<img src="images/about/logo-reddit-grayscale.png" class="social-icon-grayscale">
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
-</html>
+<head>
+	<script>
+		$(document).ready(function() {
+			$.getJSON('page-info.json', function(info) {
+				$('title').html('Edward Boguslavsky - ' + info.aboutpage.title);
+				$('.header-title').html(info.aboutpage.title);
+				$('.header-subtitle').html(info.aboutpage.description);
+			});
+		});
+	</script>
+</head>
+
+<div class="content-tile">
+	<div class="tile-icon" style="background-image: url(icons/icon-book.png);"></div>
+	<h3>
+		A short autobiography
+	</h3>
+	<h4>
+		I am a software engineering and web development major at University of Toronto. I built this website for the purpose of sharing my personal work and interests with the rest of the world, and being able to say I own a small piece of the internet
+	</h4>
+</div>
+<div class="content-tile">
+	<div class="tile-icon" style="background-image: url(icons/icon-at.png);"></div>
+	<h3>
+		How to contact me
+	</h3>
+	<h4>
+		You can follow, message or keep an eye on my projects with the following links. I will typically respond to messages within 24 hours
+	</h4>
+	<div class="social-icon-wrapper">
+		<a class="social-icon" href="https://www.facebook.com/edward.boguslavsky" target="_blank">
+			<img src="images/about/logo-facebook.png">
+			<img src="images/about/logo-facebook-grayscale.png" class="social-icon-grayscale">
+		</a>
+		<a class="social-icon" href="https://github.com/Burned451" target="_blank">
+			<img src="images/about/logo-github.png">
+			<img src="images/about/logo-github-grayscale.png" class="social-icon-grayscale">
+		</a>
+		<a class="social-icon" href="https://www.reddit.com/user/BurnedR/" target="_blank">
+			<img src="images/about/logo-reddit.png">
+			<img src="images/about/logo-reddit-grayscale.png" class="social-icon-grayscale">
+		</a>
+	</div>
+</div>
