@@ -3,7 +3,7 @@ $(document).ready(function() {
 	
 	$(".dropdown-content a").click(function(){
 		$("#dynamic-content").empty();
-		switch($(this).attr('href')) {
+		switch(window.location.hash) {
 			case '#gallery':
 				$('title').html('Edward Boguslavsky - Gallery');
 				$('.header-title').html('Gallery');
