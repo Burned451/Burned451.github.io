@@ -96,9 +96,11 @@ ul {
 	margin: 16px auto;
 }
 
+/*
 #mobile-wrapper::-webkit-scrollbar {
   width: 0px;
 }
+*/
 
 header li {
 	float: right;
