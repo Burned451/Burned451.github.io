@@ -9,9 +9,9 @@ $( document ).ready(function() {
 
 function toggle_mobile_view(obj) {
 	if($(obj).is(":checked")){
-		$("mobile-wrapper").css({'width': '360px', 'height': '640px'});
+		$("#mobile-wrapper").css({'width': '360px', 'height': '640px'});
 	}
 	else {
-		$("mobile-wrapper").css({'width': '', 'height': ''});
+		$("#mobile-wrapper").css({'width': '', 'height': ''});
 	}
 }
