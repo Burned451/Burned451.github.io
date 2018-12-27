@@ -1,14 +1,14 @@
 $(document).ready(function() {
 	$("#dynamic-content").load("home.html");
-});
-
-$(".dropdown-content a").click(function(){
-	$("#dynamic-content").empty();
-	if ($(this).attr('href') == '#') {
-		$("#dynamic-content").load("home.html");
-	} else {
-		$("#dynamic-content").load("about.html");
-	}
+	
+	$(".dropdown-content a").click(function(){
+		$("#dynamic-content").empty();
+		if ($(this).attr('href') == '#') {
+			$("#dynamic-content").load("home.html");
+		} else {
+			$("#dynamic-content").load("about.html");
+		}
+	});
 });
 
 function toggle_mobile_view(obj) {
