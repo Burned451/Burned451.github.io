@@ -6,6 +6,13 @@
 		<link rel="stylesheet" href="stylesheet.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 		<script type="text/javascript" src="script.js"></script>
+		<script>
+			$(document).ready(function() {
+				$.getJSON('page-info.json', function(info) {
+					$('.header-title').html(info.homepage.title);
+				});
+			});
+		</script>
 		<title>
 			Edward Boguslavsky - Home
 		</title>
@@ -17,7 +24,7 @@
 				<div class="content-wrapper">
 					<div class="header-text">
 						<div class="header-title">
-							Home
+							
 						</div>
 						<div class="header-subtitle">
 							An introduction to the site's content
