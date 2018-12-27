@@ -20,7 +20,7 @@ function load_page() {
 		case '#gallery':
 			$('title').html('Edward Boguslavsky - Gallery');
 			$('.header-title').html('Gallery');
-			$('.header-subtitle').html('Photographs I have taken during my travels and spare time');
+			$('.header-subtitle').html('Photographs I have taken in my spare time');
 			$("#dynamic-content").load("pages/gallery.html");
 			break;
 		case '#links':
@@ -32,7 +32,7 @@ function load_page() {
 		case '#about':
 			$('title').html('Edward Boguslavsky - About');
 			$('.header-title').html('About');
-			$('.header-subtitle').html('Additional information about me and different ways to keep in touch');
+			$('.header-subtitle').html('Additional information about the creator');
 			$("#dynamic-content").load("pages/about.html");
 			break;
 		default:
