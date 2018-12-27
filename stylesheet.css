@@ -96,7 +96,7 @@ ul {
 	margin: 16px auto;
 }
 
-::-webkit-scrollbar {
+#mobile-wrapper::-webkit-scrollbar {
   width: 0px;
 }
 
