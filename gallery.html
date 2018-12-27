@@ -1,107 +1,4 @@
-<html lang="en">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" href="stylesheet.css">
-		<link rel="shortcut icon" type="image/x-icon" href="images/general/eb-shortcut-icon.png"/>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-		<title>
-			Edward Boguslavsky - Gallery
-		</title>
-	</head>
-	<body class="construction">
-		<div id="nav-bar"></div>
-		<div class="header-wrapper">
-			<div class="content-wrapper">
-				<div class="header-title">
-					Gallery
-				</div>
-				<div class="header-subtitle">
-					Photographs I have taken during my travels and spare time
-				</div>
-			</div>
-			<div class="header-image"></div>
-		</div>
-		<div class="content-wrapper">
-			<div class="content">
-				<div class="content-padding">
-					<h3>
-						Digital Photography
-					</h3>
-						<div class="gallery-images">
-							<img src="images/gallery/thumb-oct-2016-rom.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(1)">
-							<img src="images/gallery/thumb-oct-2016-tree.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(2)">
-							<img src="images/gallery/thumb-oct-2016-store.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(3)">
-							<img src="images/gallery/thumb-oct-2016-shelf.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(4)">
-							<img src="images/gallery/thumb-oct-2016-bike.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(5)">
-							<img src="images/gallery/thumb-oct-2016-windows.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(6)">
-							<img src="images/gallery/thumb-nov-2016-barn.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(7)">
-							<img src="images/gallery/thumb-nov-2016-path.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(8)">
-							<img src="images/gallery/thumb-nov-2016-plant.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(9)">
-							<img src="images/gallery/thumb-nov-2016-stop.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(10)">
-							<img src="images/gallery/thumb-nov-2016-pond.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(11)">
-							<img src="images/gallery/thumb-nov-2016-subway.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(12)">
-						</div>
-					<h3>
-						Traditional Photography
-					</h3>
-						<div class="gallery-images">
-							<img src="images/gallery/trad-assi-1.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(13)">
-							<img src="images/gallery/trad-assi-2.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(14)">
-							<img src="images/gallery/trad-assi-3.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(15)">
-						</div>
-					<div id="modal" class="gallery-modal">
-						<span class="gallery-modal-close" onclick="closeModal()">&times;</span>
-						<div class="gallery-modal-content">
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-rom.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-tree.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-store.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-shelf.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-bike.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-windows.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-barn.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-path.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-plant.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-stop.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-pond.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/oct-2016-subway.jpg" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/trad-assi-1.png" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/trad-assi-2.png" style="width:100%">
-							</div>
-							<div class="modalImages">
-								<img src="images/gallery/trad-assi-3.png" style="width:100%">
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</body>
+<head>
 	<script text="text/javascript">
 		$('#nav-bar').load('nav-bar.html');
 		
@@ -127,4 +24,80 @@
 			slides[slideIndex-1].style.display = "block";
 		}
 	</script>
-</html>
+</head>
+
+<h3>
+	Digital Photography
+</h3>
+<div class="gallery-images">
+	<img src="images/gallery/thumb-oct-2016-rom.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(1)">
+	<img src="images/gallery/thumb-oct-2016-tree.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(2)">
+	<img src="images/gallery/thumb-oct-2016-store.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(3)">
+	<img src="images/gallery/thumb-oct-2016-shelf.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(4)">
+	<img src="images/gallery/thumb-oct-2016-bike.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(5)">
+	<img src="images/gallery/thumb-oct-2016-windows.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(6)">
+	<img src="images/gallery/thumb-nov-2016-barn.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(7)">
+	<img src="images/gallery/thumb-nov-2016-path.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(8)">
+	<img src="images/gallery/thumb-nov-2016-plant.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(9)">
+	<img src="images/gallery/thumb-nov-2016-stop.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(10)">
+	<img src="images/gallery/thumb-nov-2016-pond.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(11)">
+	<img src="images/gallery/thumb-nov-2016-subway.jpg" class="gallery-images-content-wide" onclick="openModal();currentSlide(12)">
+</div>
+<h3>
+	Traditional Photography
+</h3>
+<div class="gallery-images">
+	<img src="images/gallery/trad-assi-1.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(13)">
+	<img src="images/gallery/trad-assi-2.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(14)">
+	<img src="images/gallery/trad-assi-3.png" class="gallery-images-content-regular" onclick="openModal();currentSlide(15)">
+</div>
+<div id="modal" class="gallery-modal">
+	<span class="gallery-modal-close" onclick="closeModal()">&times;</span>
+	<div class="gallery-modal-content">
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-rom.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-tree.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-store.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-shelf.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-bike.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-windows.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-barn.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-path.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-plant.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-stop.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-pond.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/oct-2016-subway.jpg" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/trad-assi-1.png" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/trad-assi-2.png" style="width:100%">
+		</div>
+		<div class="modalImages">
+			<img src="images/gallery/trad-assi-3.png" style="width:100%">
+		</div>
+	</div>
+</div>
