@@ -1,8 +1,8 @@
 <head>
 	<script>
-		$(".dropdown-content p").click(function(){
+		$(".dropdown-content a").click(function(){
 			$("#dynamic-content").empty();
-			if ($(this).attr('id') == '/') {
+			if ($(this).attr('href') == '/') {
 				$("#dynamic-content").load("home.html");
 			} else {
 				$("#dynamic-content").load("about.html");
@@ -19,10 +19,10 @@
 		<ul>
 			<li class="dropdown" style="background-image: url(icons/icon-menu.png);">
 				<div class="dropdown-content">
-					<p id="/">Home</p>
-					<p id="/gallery">Gallery</p>
-					<p id="/links">Links</p>
-					<p id="/about">About</p>
+					<a href="">Home</a>
+					<a href="#gallery">Gallery</a>
+					<a href="#links">Links</a>
+					<a href="#about">About</a>
 				</div>
 			</li>
 			<li class="dropdown" style="background-image: url(icons/icon-gear.png);">

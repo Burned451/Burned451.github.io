@@ -132,7 +132,7 @@ header .dropdown:hover .dropdown-content {
 	display: block;
 }
 
-header .dropdown-content > div, header .dropdown-content > p {
+header .dropdown-content > div, header .dropdown-content > a {
 	display: block;
 	background-color: #f1f1f1;
 	padding: 9px 18px;
@@ -143,11 +143,11 @@ header .dropdown-content > div, header .dropdown-content > p {
 	white-space: nowrap;
 }
 
-header .dropdown-content > p:hover {
+header .dropdown-content > a:hover {
 	background-color: #e1e1e1;
 }
 
-header .dropdown, header .dropdown-content > div, header .dropdown-content > p {
+header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	transition: 0.1s ease-in-out;
