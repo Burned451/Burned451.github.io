@@ -197,7 +197,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 }
 
 input:checked + .slider {
-	background-color: var(--text-blue);
+	background-color: #4172aa;
 }
 
 input:checked + .slider:before {
@@ -275,7 +275,7 @@ input:checked + .slider:before {
 	background-size: 22px;
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-color: var(--text-blue);
+	background-color: #4172aa;
 	margin: 0 8px 4px 0;
 	padding: 6px;
 	width: 22px;
