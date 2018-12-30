@@ -4,8 +4,17 @@
 :root {
 	--header-height: 50px;
 	--content-width: 996px;
-	--header-blue: #4172aa;
-	--paragraph-blue-grey: #606770;
+	
+	--text-black: #000000;
+	--text-white: #ffffff;
+	--text-blue: #4172aa;
+	--text-blue-gray: #606770;
+	
+	--background-white: #000000;
+	--background-extra-light-gray: #f0f0f0;
+	--background-light-gray: #f1f1f1;
+	--background-gray: #e1e1e1;
+	--background-dark-gray: #4f4f4f;
 }
 
 /* ================ MAIN ================ */
@@ -14,8 +23,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: #4f4f4f;
-	margin: 0px;
+	background: var(--background-dark-gray);
+	margin: 0;
 }
 
 body.construction:before {
@@ -51,14 +60,15 @@ header {
 	height: var(--header-height);
 	top: inherit;
 	left: inherit;
-	background: white;
-	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	background: var(--background-white);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	z-index: 3;
 }
 
 h1 {
 	display: inline-block;
 	margin: 0 0 0 10px;
+	color: var(--text-black)
 	font-family: Open Sans, sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -89,13 +99,6 @@ ul {
 	transition: 0.75s ease-in-out;
 }
 
-#mobile-wrapper > .content-wrapper {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
-	grid-gap: 16px;
-	margin: 16px auto;
-}
-
 /*
 #mobile-wrapper::-webkit-scrollbar {
   width: 0px;
@@ -117,13 +120,13 @@ header .dropdown {
 }
 
 header .dropdown:hover {
-	background-color: #f1f1f1;
+	background-color: var(--background-light-gray);
 }
 
 header .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: white;
+	background-color: var(--background-white);
 	top: var(--header-height);
 	right: 0;
 }
@@ -134,17 +137,17 @@ header .dropdown:hover .dropdown-content {
 
 header .dropdown-content > div, header .dropdown-content > a {
 	display: block;
-	background-color: #f1f1f1;
+	background-color: var(--background-light-gray);
 	padding: 9px 18px;
 	font-size: 16px;
-	color: black;
+	color: var(--text-black);
 	text-decoration: none;
 	user-select: none;
 	white-space: nowrap;
 }
 
 header .dropdown-content > a:hover {
-	background-color: #e1e1e1;
+	background-color: var(--background-gray);
 }
 
 header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
@@ -193,7 +196,7 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 }
 
 input:checked + .slider {
-	background-color: var(--header-blue);
+	background-color: var(--text-blue);
 }
 
 input:checked + .slider:before {
@@ -201,7 +204,7 @@ input:checked + .slider:before {
 }
 
 .header-wrapper {
-	/*background: var(--header-blue);*/
+	/*background: var(--text-blue);*/
 	position: relative;
 	margin: var(--header-height) 0 0 0;
 	height: 360px;
@@ -213,7 +216,7 @@ input:checked + .slider:before {
 	position: absolute;
 	margin: 0 16px;
 	top: 50%;
-	color: white;
+	color: var(--text-white);
 	transform: translateY(-50%);
 	z-index: 1;
 }
@@ -238,12 +241,19 @@ input:checked + .slider:before {
 	/*filter: grayscale(100%) blur(5px);*/
 }
 
+#dynamic-content {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
+	grid-gap: 16px;
+	margin: 16px auto;
+}
+
 .content {
 	display: inline-block;
-	background-color: white;
+	background-color: var(--background-white);
 	padding: 32px;
 	width: 100%;
-	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	box-sizing: border-box;
 }
 
@@ -253,9 +263,9 @@ input:checked + .slider:before {
 
 .content-tile {
 	display: inline-block;
-	background-color: white;
+	background-color: var(--background-white);
 	padding: 16px;
-	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.14);
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	box-sizing: border-box;
 }
 
@@ -264,7 +274,7 @@ input:checked + .slider:before {
 	background-size: 22px;
 	background-position: 50%;
 	background-repeat: no-repeat;
-	background-color: var(--header-blue);
+	background-color: var(--text-blue);
 	margin: 0 8px 4px 0;
 	padding: 6px;
 	width: 22px;
@@ -279,7 +289,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	color: var(--header-blue);
+	color: var(--text-blue);
 	vertical-align: middle;
 }
 
@@ -288,7 +298,7 @@ h4 {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 14px;
-	color: var(--paragraph-blue-grey);
+	color: var(--text-blue-gray);
 }
 
 p {
