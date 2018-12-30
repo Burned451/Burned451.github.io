@@ -6,11 +6,34 @@ $(document).ready(function() {
 	});
 });
 
+function toggle_dark_mode(obj) {
+	if($(obj).is(":checked")){
+		$(':root').css({'--text-black': '#f0f2f4',
+						'--text-blue': '#88b1df'
+						'--text-blue-gray': '#9da2a9',
+						'--background-white': '#0f1925',
+						'--background-extra-light-gray': '#090f16',
+						'--background-light-gray': '#26405e',
+						'--background-gray': '#335b88'});
+		
+	} else {
+		$(':root').css({'--text-black': '#f0f2f4',
+						'--text-blue': '#88b1df'
+						'--text-blue-gray': '#9da2a9',
+						'--background-white': '#0f1925',
+						'--background-extra-light-gray': '#090f16',
+						'--background-light-gray': '#26405e',
+						'--background-gray': '#335b88'});
+	}
+}
+
 function toggle_mobile_view(obj) {
 	if($(obj).is(":checked")){
-		$("#mobile-wrapper").css({'width': '360px', 'height': '640px'});
+		$("#mobile-wrapper").css({'width': '360px',
+								  'height': '640px'});
 	} else {
-		$("#mobile-wrapper").css({'width': '', 'height': ''});
+		$("#mobile-wrapper").css({'width': '',
+								  'height': ''});
 	}
 }
 
