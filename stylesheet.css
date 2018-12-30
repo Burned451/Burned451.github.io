@@ -494,7 +494,7 @@ a.link-page, a.link-page:hover, a.link-page:visited {
 /* ================ MEDIA QUERY ================ */
 
 @media only screen and (max-width: 600px) {
-	.dropdown-content div:last-child {
+	.dropdown-content div:nth-child(2) {
 		display: none;
 	}
 }
