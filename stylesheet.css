@@ -97,6 +97,7 @@ ul {
 	height: 100vh;
 	overflow: auto;
 	transition: 0.75s ease-in-out;
+	transition-property: width, height;
 }
 
 /*
