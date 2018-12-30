@@ -9,7 +9,7 @@ $(document).ready(function() {
 function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
 		$(':root').css({'--text-black': '#f0f2f4',
-						'--text-blue': '#88b1df'
+						'--text-blue': '#88b1df',
 						'--text-blue-gray': '#9da2a9',
 						'--background-white': '#0f1925',
 						'--background-extra-light-gray': '#090f16',
@@ -18,7 +18,7 @@ function toggle_dark_mode(obj) {
 		
 	} else {
 		$(':root').css({'--text-black': '#f0f2f4',
-						'--text-blue': '#88b1df'
+						'--text-blue': '#88b1df',
 						'--text-blue-gray': '#9da2a9',
 						'--background-white': '#0f1925',
 						'--background-extra-light-gray': '#090f16',
