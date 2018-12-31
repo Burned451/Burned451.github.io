@@ -362,7 +362,7 @@ p {
 
 /* ================ LINKS ================ */
 
-.link-screenshot {
+.link-screenshot, .link-video {
 	width: calc(100% + 32px);
 	margin: -16px -16px 16px -16px;
 }
