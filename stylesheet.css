@@ -359,6 +359,7 @@ p {
 .link-screenshot, .link-video {
 	margin: -16px -16px 16px -16px;
 	width: calc(100% + 32px);
+	border: none;
 	box-shadow: var(--box-shadow-light);
 }
 
