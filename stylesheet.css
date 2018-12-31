@@ -255,7 +255,7 @@ h2 {
 	padding: 32px 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 28px;
 	color: var(--text-blue-gray);
 	text-align: center;
 }
@@ -356,8 +356,9 @@ p {
 /* ================ LINKS ================ */
 
 .link-screenshot, .link-video {
-	width: calc(100% + 32px);
 	margin: -16px -16px 16px -16px;
+	width: calc(100% + 32px);
+	box-shadow: var(--box-shadow-light);
 }
 
 /* ================ ABOUT ================ */
