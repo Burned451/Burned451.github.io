@@ -362,72 +362,9 @@ p {
 
 /* ================ LINKS ================ */
 
-.link {
-	display: flex;
-	width: 100%;
-	height: 140px;
-	padding: 0px 0px 14px 0px;
-}
-
-.link-description {
-	display: inline-block;
-	margin: 0 auto;
-	width: 360px;
-	height: 100%;
-}
-
-.link-description h3 {
-	margin-top: 20px;
-	font-size: 18px;
-}
-
-.link-description h4 {
-	font-size: 14px;
-}
-
-.link-preview {
-	height: 100%;
-	display: inline-block;
-	margin: 0 auto;
-	position: relative;
-}
-
-.link-preview:hover .link-screenshot {
-	opacity: 0.2;
-}
-
-.link-preview:hover .link-preview-text {
-	opacity: 1;
-}
-
-a.link-page, a.link-page:hover, a.link-page:visited {
-	text-decoration: none;
-	color: black;
-}
-
 .link-screenshot {
-	border-radius: 6px;
-	border: 1px solid #b3b3b3;
-	width: 210px;
-	height: 140px;
-	transition: 0.5s ease-in-out;
-}
-
-.link-preview-text {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	font-size: 20px;
-	opacity: 0;
-	transition: 0.5s ease-in-out;
-}
-
-.link-video {
-	width: 210px;
-	height: 140px;
+	width: calc(100% + 32px);
+	margin: -16px -16px 16px -16px;
 }
 
 /* ================ ABOUT ================ */
