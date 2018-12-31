@@ -216,13 +216,6 @@ input:checked + .slider:before {
 	/*filter: grayscale(100%) blur(5px);*/
 }
 
-#dynamic-content {
-	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
-	grid-gap: 16px;
-	margin: 16px auto;
-}
-
 .content {
 	display: inline-block;
 	background-color: var(--background-white);
@@ -232,8 +225,11 @@ input:checked + .slider:before {
 	box-sizing: border-box;
 }
 
-.content-padding {
-	padding: 30px 42px 42px 42px;
+.content-tile-weapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
+	grid-gap: 16px;
+	margin: 16px auto;
 }
 
 .content-tile {
