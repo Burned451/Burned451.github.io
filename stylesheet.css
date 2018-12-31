@@ -16,7 +16,7 @@
 	--background-gray: #e1e1e1;
 	--background-dark-gray: #4f4f4f;
 	
-	--box-shadow-light: 0 1px 4px 0 rgba(0, 0, 0, 0.12), 0 1px 24px 0 rgba(0, 0, 0, 0.06);
+	--box-shadow-light: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 2px 16px 0 rgba(0, 0, 0, 0.06);
 }
 
 /* ================ MAIN ================ */
