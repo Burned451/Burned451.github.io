@@ -225,7 +225,7 @@ input:checked + .slider:before {
 	box-sizing: border-box;
 }
 
-.content-tile-weapper {
+.content-tile-wrapper {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
 	grid-gap: 16px;
