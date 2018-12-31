@@ -232,6 +232,7 @@ input:checked + .slider:before {
 	padding: 16px;
 	box-shadow: var(--box-shadow-light);
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
 .tile-icon {
