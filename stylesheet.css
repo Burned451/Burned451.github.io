@@ -258,6 +258,15 @@ input:checked + .slider:before {
 	border-radius: 50%;
 }
 
+h2 {
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	color: var(--text-blue-gray);
+	text-align: center;
+}
+
 h3 {
 	display: inline-block;
 	margin: 0;
