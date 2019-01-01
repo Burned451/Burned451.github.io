@@ -369,7 +369,7 @@ p {
 }
 
 .content-tile:hover .link-screenshot {
-	transition: transformY(-50px);
+	transform: translateY(-50px);
 }
 
 .link-page {
