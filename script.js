@@ -18,6 +18,7 @@ function toggle_dark_mode(obj) {
 						'--background-gray': '#335b88'});
 		$('li.dropdown:nth-child(1)').css('background-image', 'url(icons/icon-menu-dark.png)');
 		$('li.dropdown:nth-child(2)').css('background-image', 'url(icons/icon-gear-dark.png)');
+		$('a.link-page').css('background-image', 'url(icons/icon-link-dark.png)');
 	} else {
 		$(':root').css({'--text-black': '',
 						'--text-white': '',
@@ -29,6 +30,7 @@ function toggle_dark_mode(obj) {
 						'--background-gray': ''});
 		$('li.dropdown:nth-child(1)').css('background-image', 'url(icons/icon-menu.png)');
 		$('li.dropdown:nth-child(2)').css('background-image', 'url(icons/icon-gear.png)');
+		$('a.link-page').css('background-image', 'url(icons/icon-link.png)');
 	}
 }
 
