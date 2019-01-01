@@ -381,10 +381,11 @@ p {
 	width: 24px;
 	height: 24px;
 	transform: translateX(-50%);
+	transition: 0.15s ease-in-out;
 }
 
 .link-page:hover {
-	opacity: 0.8;
+	opacity: 0.6;
 }
 	
 /* ================ ABOUT ================ */
