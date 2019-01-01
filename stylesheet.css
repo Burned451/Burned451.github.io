@@ -375,7 +375,7 @@ p {
 .link-page {
 	display: inline-block;
 	position: absolute;
-	url(icons/icon-link.png) 50%/24px no-repeat;
+	background: url(icons/icon-link.png) 50%/24px no-repeat;
 	top: -53px;
 	left: 50%;
 	width: 24px;
