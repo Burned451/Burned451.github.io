@@ -3,7 +3,7 @@
 
 :root {
 	--header-height: 50px;
-	--content-width: 996px;
+	--content-width: 1024px;
 	
 	--text-black: #000000;
 	--text-white: #ffffff;
@@ -222,12 +222,14 @@ input:checked + .slider:before {
 
 .content-tile-wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 32px) / 3), 1fr));
+	grid-template-columns: repeat(auto-fit, minmax(calc((var(--content-width) - 64px) / 3), 1fr));
 	grid-gap: 16px;
+	padding: 0 16px;
 }
 
 .content-tile {
 	display: inline-block;
+	position: relative;
 	background-color: var(--background-white);
 	padding: 16px;
 	box-shadow: var(--box-shadow-light);
@@ -368,8 +370,24 @@ p {
 	border: none;
 }
 
+.link-screenshot-effect {
+	position: absolute;
+	background: linear-gradient(black, transparent);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 64px;
+	opacity: 0;
+	z-index: 2;
+	transition: 0.5s ease-in-out;
+}
+
 .content-tile:hover .link-screenshot {
 	transform: translateY(-50px);
+}
+
+.content-tile:hover .link-screenshot-effect {
+	opacity: 0.1;
 }
 
 .link-page {
