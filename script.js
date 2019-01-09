@@ -57,6 +57,7 @@ function load_page() {
 			$('title').html('Edward Boguslavsky - Links');
 			$('.header-title').html('Links');
 			$('.header-subtitle').html('Other enjoyable media to keep you busy');
+			$('.header-subtitle').html('Hello Ivan!');
 			$("#dynamic-content").load("pages/links.html");
 			break;
 		case '#about':
