@@ -68,7 +68,7 @@ function load_page() {
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
 			$('.header-title').html('ePortfolio');
-			$('.header-subtitle').html('Some of the proudest moments in my history');
+			$('.header-subtitle').html('Some of the proudest moments in my academic history');
 			$("#dynamic-content").load("pages/eportfolio.html");
 			break;
 		default:
