@@ -282,11 +282,11 @@ h4 {
 }
 
 p {
-	margin: 0 0 8px 0;
+	margin: 8px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 15px;
-	line-height: 26px;
+	font-size: 14px;
+	line-height: 24px;
 	text-align: justify;
 }
 
@@ -435,19 +435,9 @@ p {
 
 /* ================ EPORTFOLIO ================ */
 
-.content > h3 {
-	display: block;
-}
-
-.img-p-wrapper {
-	margin: 12px 0 12px 8px;
-}
-
 .eportfolio-images {
-	display: inline-block;
-	margin: 0 14px 0 0;
-	height: 230px;
-	float: left;
+	margin: -16px -16px 16px -16px;
+	width: calc(100% + 32px);
 }
 
 /* ================ MEDIA QUERY ================ */
