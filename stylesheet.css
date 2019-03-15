@@ -438,6 +438,7 @@ p {
 .eportfolio-images {
 	margin: -16px -16px 16px -16px;
 	width: calc(100% + 32px);
+	height: 272px;
 }
 
 /* ================ MEDIA QUERY ================ */
