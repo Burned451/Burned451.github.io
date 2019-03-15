@@ -65,6 +65,12 @@ function load_page() {
 			$('.header-subtitle').html('Additional information about the creator');
 			$("#dynamic-content").load("pages/about.html");
 			break;
+		case '#eportfolio':
+			$('title').html('Edward Boguslavsky - ePortfolio');
+			$('.header-title').html('ePortfolio');
+			$('.header-subtitle').html('Some of the proudest moments in my history');
+			$("#dynamic-content").load("pages/eportfolio.html");
+			break;
 		default:
 			$('title').html('Edward Boguslavsky - Home');
 			$('.header-title').html('Home');
