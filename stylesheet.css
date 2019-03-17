@@ -20,25 +20,13 @@
 }
 
 @keyframes float-up-in-0-9 {
-	from {
-		transform: translateY(100px);
-		opacity: 0!important;
-	}
-	to {
-		transform: translateY(0);
-		opacity: 0.9;
-	}
+	from	{ transform: translateY(100px);	opacity: 0; }
+	to		{ transform: translateY(0);		opacity: 0.9; }
 }
 
 @keyframes float-up-in-0-7 {
-	from {
-		transform: translateY(100px);
-		opacity: 0;
-	}
-	to {
-		transform: translateY(0);
-		opacity: 0.7;
-	}
+	from	{ transform: translateY(100px);	opacity: 0; }
+	to		{ transform: translateY(0);		opacity: 0.7; }
 }
 
 /* ============================================================================================================= */
@@ -294,14 +282,14 @@ input:checked + .slider:before {
 	font-size: 72px;
 	line-height: 60px;
 	letter-spacing: -3px;
-	animation: float-up-in-0-9 2s ease-out both;
+	animation: float-up-in-0-9 1.5s ease-out both;
 }
 
 .title-wrapper .title-icon svg {
 	padding-bottom: 25%;
 	width: 360px;
 	height: auto;
-	animation: float-up-in-0-7 2s ease-out 1s both;
+	animation: float-up-in-0-7 1.5s ease-out 0.5s both;
 }
 
 .title-wrapper .title-icon svg g {
