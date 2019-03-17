@@ -54,7 +54,6 @@ header {
 
 .content-wrapper {
 	margin: 0 auto;
-	height: 100%;
 	max-width: var(--content-width);
 	box-sizing: border-box;
 }
@@ -71,6 +70,7 @@ header {
 	align-items: center;
 	justify-content: space-around;
 	padding: 0 24px;
+	height: 100%;
 }
 
 .content-wrapper#dynamic-content {
