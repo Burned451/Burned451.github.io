@@ -38,7 +38,17 @@ header {
 	z-index: 999;
 }
 
+.header-logo {
+	position: relative;
+	width: var(--header-height);
+	height: var(--header-height);
+}
+
 .header-logo svg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 	width: 24px;
 	height: auto;
 	opacity: 0.9;
@@ -62,14 +72,12 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 0 24px;
 }
 
 .content-wrapper#title-content {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	padding: 0 24px;
 	height: 100%;
 }
 
