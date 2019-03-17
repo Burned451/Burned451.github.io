@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600');
 
 :root {
@@ -200,7 +200,7 @@ input:checked + .slider:before {
 
 .header-title {
 	font-family: Montserrat, sans-serif;
-	font-weight: 300;
+	font-weight: 800;
 	font-size: 50px;
 }
 
