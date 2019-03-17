@@ -244,7 +244,7 @@ input:checked + .slider:before {
 	white-space: nowrap;
 }
 
-.header-wrapper .dropdown .dropdown-content {
+.header-wrapper .dropdown .dropdown-content .dropdown-link {
 	display: none;
 }
 
@@ -512,7 +512,7 @@ h3 > .subtitle {
 	}
 }
 	
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 520px) {
 	.header-wrapper ul {
 		display: none;
 	}
@@ -522,11 +522,11 @@ h3 > .subtitle {
 	}
 	
 	.title-wrapper .title-text {
-		font-size: 14vw;
-		line-height: 12vw;
+		font-size: 13.75vw;
+		line-height: 11.75vw;
 	}
 	
 	.title-wrapper .title-icon svg {
-		width: 30vw;
+		width: 29vw;
 	}
 }
