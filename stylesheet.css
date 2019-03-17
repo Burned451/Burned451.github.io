@@ -194,6 +194,7 @@ input:checked + .slider:before {
 	width: var(--header-height);
 	height: var(--header-height);
 	cursor: pointer;
+	transition: 0.2s ease-in-out;
 }
 
 .header-wrapper .dropdown:hover {
