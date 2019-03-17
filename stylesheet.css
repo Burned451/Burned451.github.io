@@ -35,17 +35,21 @@ header {
 	height: var(--title-height);
 	top: inherit;
 	left: inherit;
-	z-index: 3;
+	z-index: 999;
 }
 
-h1 {
-	display: inline-block;
-	margin: 0;
-	color: white;
-	font-family: Open Sans, sans-serif;
-	font-weight: 300;
-	font-size: 20px;
+.header-logo svg {
+	width: 24px;
+	height: auto;
 	opacity: 0.9;
+}
+
+.header-logo svg g {
+	fill: white!important;
+}
+
+.header-logo svg g path:first-child {
+	opacity: 0.6;
 }
 
 ul {

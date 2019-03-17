@@ -1,4 +1,5 @@
 $(document).ready(function() {
+	$(".header-logo").load("icons/icon-logo.svg");
 	$(".title-icon").load("icons/icon-head.svg");
 			
 	load_page()
