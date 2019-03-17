@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$(".title-icon").load("icons/icon-head.svg");
+			
 	load_page()
 	
 	$(window).on('hashchange', function() {		
