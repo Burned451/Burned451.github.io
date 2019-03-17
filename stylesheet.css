@@ -282,14 +282,16 @@ input:checked + .slider:before {
 	font-size: 72px;
 	line-height: 60px;
 	letter-spacing: -3px;
-	animation: float-up-in-0-9 1s ease-in-out both;
+	opacity: 0.9;
+	/*animation: float-up-in-0-9 1s ease-in-out both;*/
 }
 
 .title-wrapper .title-icon svg {
 	padding-bottom: 25%;
 	width: 360px;
 	height: auto;
-	animation: float-up-in-0-7 1s ease-in-out 0.5s both;
+	opacity: 0.7;
+	/*animation: float-up-in-0-7 1s ease-in-out 0.5s both;*/
 }
 
 .title-wrapper .title-icon svg g {
