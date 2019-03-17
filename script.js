@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$(".header-logo").load("icons/icon-logo.svg");
-	$(".dropdown-icon").load("icons/icon-menu.svg");
+	$('.dropdown-icon').append($('<div></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
 			
 	load_page()
