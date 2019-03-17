@@ -103,6 +103,16 @@ header .dropdown:hover {
 	background-color: var(--background-light-gray);
 }
 
+header .dropdown svg {
+	width: 24px;
+	height: auto;
+	opacity: 0.9;
+}
+
+header .dropdown svg path {
+	fill: white!important;
+}
+
 header .dropdown-content {
 	display: none;
 	position: absolute;
