@@ -82,18 +82,8 @@ header {
 }
 
 .content-wrapper#dynamic-content {
-	margin: 16px auto;
-}
-
-#mobile-wrapper {
-	position: relative;
 	background: var(--background-extra-light-gray);
-	margin: auto;
-	width: 100%;
-	height: 100vh;
-	overflow: auto;
-	transition: 0.75s ease-in-out;
-	transition-property: width, height;
+	margin: 16px auto;
 }
 
 header ul {
@@ -496,11 +486,7 @@ h3 > .subtitle {
 
 /* ================ MEDIA QUERY ================ */
 
-@media only screen and (max-width: 850px) {
-	.dropdown-content div:last-child {
-		display: none;
-	}
-	
+@media only screen and (max-width: 850px) {	
 	.content-wrapper#title-content {
 		justify-content: center;
 	}

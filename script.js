@@ -34,16 +34,6 @@ function toggle_dark_mode(obj) {
 	}
 }
 
-function toggle_mobile_view(obj) {
-	if($(obj).is(":checked")){
-		$("#mobile-wrapper").css({'width': '360px',
-								  'height': '640px'});
-	} else {
-		$("#mobile-wrapper").css({'width': '',
-								  'height': ''});
-	}
-}
-
 function load_page() {
 	$("#dynamic-content").empty();
 	switch(window.location.hash) {
