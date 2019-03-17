@@ -139,7 +139,7 @@ header .dropdown-content {
 	display: none;
 	position: absolute;
 	background-color: var(--background-white);
-	top: var(--title-height);
+	top: var(--header-height);
 	right: 0;
 }
 
