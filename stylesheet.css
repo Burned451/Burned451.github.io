@@ -186,6 +186,10 @@ header .dropdown, header .dropdown-content > div, header .dropdown-content > a {
 	transition: 0.1s ease-in-out;
 }
 
+header .dropdown-link {
+	display: none;
+}
+
 .switch {
 	display: inline-block;
 	position: relative;
@@ -512,6 +516,14 @@ h3 > .subtitle {
 }
 	
 @media only screen and (max-width: 500px) {
+	heaader ul {
+		display: none;
+	}
+	
+	header .dropdown-link {
+		display: block;
+	}
+	
 	.title-text {
 		font-size: 14vw;
 		line-height: 12vw;
