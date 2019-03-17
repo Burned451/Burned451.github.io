@@ -510,3 +510,14 @@ h3 > .subtitle {
 		width: 150px;
 	}
 }
+	
+@media only screen and (max-width: 440px) {
+	.title-text {
+		font-size: 15vw;
+		line-height: 12.5vw;
+	}
+	
+	.title-icon svg {
+		width: 30vw;
+	}
+}
