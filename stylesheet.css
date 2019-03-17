@@ -497,7 +497,7 @@ h3 > .subtitle {
 /* ================ MEDIA QUERY ================ */
 
 @media only screen and (max-width: 850px) {
-	.dropdown-content div:nth-child(2) {
+	.dropdown-content div:last-child {
 		display: none;
 	}
 	
@@ -516,7 +516,7 @@ h3 > .subtitle {
 }
 	
 @media only screen and (max-width: 500px) {
-	heaader ul {
+	header ul {
 		display: none;
 	}
 	
