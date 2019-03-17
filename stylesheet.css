@@ -228,7 +228,7 @@ input:checked + .slider:before {
 	right: 0;
 }
 
-.header-wrapper .dropdown .dropdown:hover .dropdown-content {
+.header-wrapper .dropdown:hover .dropdown-content {
 	display: block;
 }
 
