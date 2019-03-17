@@ -40,26 +40,29 @@ header {
 
 h1 {
 	display: inline-block;
-	margin: 0 0 0 10px;
-	color: var(--text-black);
+	margin: 0;
+	color: white;
 	font-family: Open Sans, sans-serif;
 	font-weight: 300;
 	font-size: 20px;
-	line-height: var(--title-height);
+	opacity: 0.9;
 }
 
 ul {
-	list-style-type: none;
-	margin: 0;
+	display: inline;
+	margin: 0 0 0 auto;
 	padding: 0;
 	overflow: hidden;
-	display: inline;
+	list-style-type: none;
 }
 
 .content-wrapper {
+	display: flex;
+	align-items: center;
 	margin: 0 auto;
+	padding: 0 24px;
 	max-width: var(--content-width);
-	font-size: 0;
+	box-sizing: border-box;
 }
 
 #dynamic-content {
