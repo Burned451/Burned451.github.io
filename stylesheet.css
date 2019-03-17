@@ -56,7 +56,6 @@ ul {
 	display: inline;
 	margin: 0 0 0 auto;
 	padding: 0;
-	overflow: hidden;
 	list-style-type: none;
 }
 
@@ -186,7 +185,7 @@ input:checked + .slider:before {
 
 .title-wrapper {
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
-	height: 100vh;
+	height: 100%;
 	box-shadow: var(--box-shadow-light);
 }
 
