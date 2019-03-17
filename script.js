@@ -49,32 +49,22 @@ function load_page() {
 	switch(window.location.hash) {
 		case '#gallery':
 			$('title').html('Edward Boguslavsky - Gallery');
-			$('.header-title').html('Gallery');
-			$('.header-subtitle').html('Photographs I have taken in my spare time');
 			$("#dynamic-content").load("pages/gallery.html");
 			break;
 		case '#links':
 			$('title').html('Edward Boguslavsky - Links');
-			$('.header-title').html('Links');
-			$('.header-subtitle').html('Other enjoyable media to keep you busy');
 			$("#dynamic-content").load("pages/links.html");
 			break;
 		case '#about':
 			$('title').html('Edward Boguslavsky - About');
-			$('.header-title').html('About');
-			$('.header-subtitle').html('Additional information about the creator');
 			$("#dynamic-content").load("pages/about.html");
 			break;
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
-			$('.header-title').html('ePortfolio');
-			$('.header-subtitle').html('Some of the proudest moments in my academic history');
 			$("#dynamic-content").load("pages/eportfolio.html");
 			break;
 		default:
 			$('title').html('Edward Boguslavsky - Home');
-			$('.header-title').html('Home');
-			$('.header-subtitle').html('An introduction to the site\'s content');
 			$("#dynamic-content").load("pages/home.html");
 	}
 }

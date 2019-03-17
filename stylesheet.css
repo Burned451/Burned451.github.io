@@ -193,21 +193,17 @@ input:checked + .slider:before {
 	position: absolute;
 	margin: 0 16px;
 	top: 50%;
-	color: var(--text-white);
 	transform: translateY(-50%);
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-weight: 800;
+	font-size: 64px;
+	letter-spacing: -3px;
 	z-index: 1;
 }
 
-.header-title {
-	font-family: Montserrat, sans-serif;
-	font-weight: 800;
-	font-size: 50px;
-}
-
-.header-subtitle {
-	font-family: Open Sans, sans-serif;
-	font-weight: 400;
-	font-size: 20px;
+.header-text div {
+	opacity: 0.8;
 }
 
 .header-image {
