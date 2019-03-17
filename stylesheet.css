@@ -21,7 +21,7 @@
 
 @keyframes float-up-in-0-9 {
 	from {
-		transform: translateY(-64px);
+		transform: translateY(100px);
 		opacity: 0!important;
 	}
 	to {
@@ -32,7 +32,7 @@
 
 @keyframes float-up-in-0-7 {
 	from {
-		transform: translateY(-64px);
+		transform: translateY(100px);
 		opacity: 0;
 	}
 	to {
@@ -294,14 +294,14 @@ input:checked + .slider:before {
 	font-size: 72px;
 	line-height: 60px;
 	letter-spacing: -3px;
-	animation: float-up-in-0-9 1s ease-out forwards;
+	animation: float-up-in-0-9 2s ease-out both;
 }
 
 .title-wrapper .title-icon svg {
 	padding-bottom: 25%;
 	width: 360px;
 	height: auto;
-	animation: float-up-in-0-7 1s ease-out 0.5s forwards;
+	animation: float-up-in-0-7 2s ease-out 1s both;
 }
 
 .title-wrapper .title-icon svg g {
