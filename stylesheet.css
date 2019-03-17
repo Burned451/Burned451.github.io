@@ -126,10 +126,10 @@ input:checked + .slider:before {
 
 .header-wrapper {
 	position: fixed;
-	width: inherit;
+	top: 0;
+	left: 0;
+	width: 100%;
 	height: var(--title-height);
-	top: inherit;
-	left: inherit;
 	z-index: 999;
 }
 
