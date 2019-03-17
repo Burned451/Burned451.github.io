@@ -492,8 +492,21 @@ h3 > .subtitle {
 
 /* ================ MEDIA QUERY ================ */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
 	.dropdown-content div:nth-child(2) {
 		display: none;
+	}
+	
+	.content-wrapper#title-content {
+		justify-content: center;
+	}
+	
+	.title-icon svg {
+		position: absolute;
+		padding: 0;
+		top: 50%;
+		left: 50%;
+		transform: translate(50%, -100%);
+		width: 150px;
 	}
 }
