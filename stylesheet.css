@@ -59,8 +59,10 @@ ul {
 .content-wrapper {
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 	margin: 0 auto;
 	padding: 0 24px;
+	height: 100%;
 	max-width: var(--content-width);
 	box-sizing: border-box;
 }
@@ -179,9 +181,6 @@ input:checked + .slider:before {
 }
 
 .title-wrapper {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
 	height: 100vh;
 	box-shadow: var(--box-shadow-light);
@@ -195,11 +194,13 @@ input:checked + .slider:before {
 	line-height: 56px;
 	letter-spacing: -3px;
 	opacity: 0.9;
-	z-index: 1;
 }
 
-.title-icon {
-	opacity: 0.9;
+.title-icon svg {
+	padding-bottom: 25%;
+	width: 360px;
+	height: 50%;
+	opacity: 0.7;
 }
 
 .title-icon svg g {
