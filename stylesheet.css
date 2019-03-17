@@ -492,7 +492,7 @@ h3 > .subtitle {
 
 /* ================ MEDIA QUERY ================ */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 850px) {
 	.dropdown-content div:nth-child(2) {
 		display: none;
 	}
