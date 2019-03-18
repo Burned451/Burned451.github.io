@@ -37,8 +37,13 @@ body {
 	margin: 0;
 }
 
+.height-wrapper {
+	padding: 128px 0;
+}
+
 .width-wrapper {
 	position: relative;
+	margin: 0 auto;
 	max-width: var(--content-width);
 }
 
@@ -266,12 +271,14 @@ input:checked + .slider:before {
 	display: block;
 }
 
+.title .height-wrapper {
+	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
+}
+
 .title .width-wrapper {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
-	padding: 128px 0;
 }
 
 .title .title-text {
@@ -309,12 +316,11 @@ input:checked + .slider:before {
 	display: block;
 }
 
-.content .width-wrapper {
+.content .height-wrapper {
 	background: var(--background-extra-light-gray);
-	padding: 128px 0;
 }
 
-.content .width-wrapper:nth-child(even) {
+.content .height-wrapper:nth-child(even) {
 	background: var(--background-white);
 }
 
