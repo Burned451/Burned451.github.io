@@ -142,6 +142,7 @@ input:checked + .slider:before {
 	left: 0;
 	width: 100%;
 	height: var(--title-height);
+	transition: background 0.2s ease-in-out;
 	z-index: 999;
 }
 
