@@ -357,7 +357,7 @@ input:checked + .slider:before {
 	overflow: hidden;
 }
 
-.content .width-wrapper .content-tile-wrapper .content-tile.icon.title
+.content .width-wrapper .content-tile-wrapper .content-tile.icon.title {
 	display: grid; 
 	grid-template: minmax(40px, auto) / 40px 1fr;
 	grid-gap: 8px / 12px; 
