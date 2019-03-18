@@ -67,6 +67,7 @@ h3 {
 }
 
 h4 {
+	grid-column: 1 / -1;
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -360,13 +361,13 @@ input:checked + .slider:before {
 .content .width-wrapper .content-tile-wrapper .content-tile.icon.title {
 	display: grid; 
 	grid-template: minmax(40px, auto) / 40px 1fr;
-	grid-gap: 8px / 12px; 
+	grid-gap: 8px 12px; 
 }
 
 .content .width-wrapper .content-tile-wrapper .content-tile-icon {
 	display: inline-block;
 	align-self: center;
-	background: #4172aa 50%/40px no-repeat;
+	background: #4172aa 50%/24px no-repeat;
 	border-radius: 50%;
 	width: 40px;
 	height: 40px;
