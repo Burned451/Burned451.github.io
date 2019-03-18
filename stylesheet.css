@@ -189,6 +189,7 @@ input:checked + .slider:before {
 
 .header ul .header-link a {
 	display: inline-block;
+	position: relative;
 	padding: 0 24px;
 	color: white;
 	font-size: 16px;
@@ -196,6 +197,24 @@ input:checked + .slider:before {
 	font-family: 'Open Sans', sans-serif;
 	line-height: var(--header-height);
 	text-decoration: none;
+}
+
+.header ul .header-link a:after {
+	content: '';
+	display: block;
+	position: absolute;
+	background: white;
+	top: calc(50% + 16px);
+	left: 24;
+	width: calc(100% - 48px);
+	height: 1px;
+	opacity: 0;
+	transition: 0.5s ease-in-out;
+}
+
+.header ul .header-link a:hover:after {
+	opacity: 1;
+	transform: translateY(24px);
 }
 
 .header .dropdown {
