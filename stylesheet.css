@@ -125,6 +125,7 @@ input:checked + .slider:before {
 }
 
 .content-wrapper {
+	position: relative;
 	margin: 0 auto;
 	max-width: var(--content-width);
 	box-sizing: border-box;
@@ -264,7 +265,6 @@ input:checked + .slider:before {
 
 .title-wrapper {
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
-	height: 100%;
 	box-shadow: var(--box-shadow-light);
 }
 
@@ -272,7 +272,7 @@ input:checked + .slider:before {
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	height: 100%;
+	padding: 128px 0;
 }
 
 .title-wrapper .title-text {
