@@ -35,26 +35,26 @@ function toggle_dark_mode(obj) {
 }
 
 function load_page() {
-	$("#dynamic").empty();
+	$(".content").empty();
 	switch(window.location.hash) {
 		case '#gallery':
 			$('title').html('Edward Boguslavsky - Gallery');
-			$("#dynamic").load("pages/gallery.html");
+			$(".content").load("pages/gallery.html");
 			break;
 		case '#links':
 			$('title').html('Edward Boguslavsky - Links');
-			$("#dynamic").load("pages/links.html");
+			$(".content").load("pages/links.html");
 			break;
 		case '#about':
 			$('title').html('Edward Boguslavsky - About');
-			$("#dynamic").load("pages/about.html");
+			$(".content").load("pages/about.html");
 			break;
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
-			$("#dynamic").load("pages/eportfolio.html");
+			$(".content").load("pages/eportfolio.html");
 			break;
 		default:
 			$('title').html('Edward Boguslavsky - Home');
-			$("#dynamic").load("pages/home.html");
+			$(".content").load("pages/home.html");
 	}
 }
