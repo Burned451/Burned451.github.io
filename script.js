@@ -13,7 +13,7 @@ $(document).ready(function() {
 $(document).scroll(function() {
 	if ($('.title').scrollTop() > 0) $('.header').css('background', 'rgba(0, 0, 0, 0.3)');
 	else $('.header').css('background', '');
-});​
+});
 
 function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
