@@ -3,6 +3,7 @@
 
 :root {
 	--header-height: 64px;
+	--content-height: 64px;
 	--content-width: 1024px;
 	
 	--text-black: #000000;
@@ -35,10 +36,6 @@
 
 body {
 	margin: 0;
-}
-
-.height-wrapper {
-	padding: 128px 0;
 }
 
 .width-wrapper {
@@ -273,6 +270,7 @@ input:checked + .slider:before {
 
 .title .height-wrapper {
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
+	padding: calc(var(--content-height) * 2) 0;
 }
 
 .title .width-wrapper {
@@ -318,6 +316,7 @@ input:checked + .slider:before {
 
 .content .height-wrapper {
 	background: var(--background-extra-light-gray);
+	padding: var(--content-height) 0;
 }
 
 .content .height-wrapper:nth-child(even) {
