@@ -40,7 +40,7 @@ function toggle_dark_mode(obj) {
 }
 
 function load_page() {
-	$('.content').css('min-height', this.height());
+	$('.content').css('min-height', $('.content').height());
 	$(".content").empty();
 	switch(window.location.hash) {
 		case '#gallery':
