@@ -2,25 +2,22 @@ $(document).ready(function() {
 	$(".header-logo").load("icons/icon-logo.svg");
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
+			
+	load_page()
 	
-	$(".content-tile-icon").load("icons/icon-camera.svg");
-	//$(".content-tile-icon.camera").load("icons/icon-camera.svg");
-	//$(".content-tile-icon.project").load("icons/icon-project.svg");
-	//$(".content-tile-icon.about").load("icons/icon-about.svg");
+	$(window).on('hashchange', function() {		
+		load_page()
+	});
+	
+	$(".content-tile-icon.camera").load("icons/icon-camera.svg");
+	$(".content-tile-icon.project").load("icons/icon-project.svg");
+	$(".content-tile-icon.about").load("icons/icon-about.svg");
 });
 
 $(document).scroll(function() {
 	if ($('body').scrollTop() > 0) $('.header').css('background', 'rgba(0, 0, 0, 0.3)');
 	else $('.header').css('background', '');
 });
-
-function load_content() {
-	load_page()
-
-	$(window).on('hashchange', function() {		
-		load_page()
-	});
-}
 
 function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
