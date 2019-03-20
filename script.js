@@ -70,5 +70,5 @@ function load_page() {
 
 function scroll_content() {
 	$('.content').css('min-height', $('.content').height());
-	$(window).scrollTop($('.content').offset().top);
+	$(window).scrollTop($('.content').offset().top - '--header-height');
 }
