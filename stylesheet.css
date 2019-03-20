@@ -337,6 +337,7 @@ input:checked + .slider:before {
 }
 
 .content:empty {
+	background: red;
 	height: cal(var(--content-height) * 2);
 }
 
