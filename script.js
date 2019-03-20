@@ -20,7 +20,7 @@ function toggle_dark_mode(obj) {
 		$(':root').css({'--text-black': '#f0f2f4',
 						'--text-white': '#f0f2f4',
 						'--text-color-light': '#c0acffb3',
-						'--text-color-dark': '#e6deffcc',
+						'--text-color-dark': '#f0ebffcc',
 						'--background-white': '#0f1925',
 						'--background-extra-light': '#0f0024',
 						'--background-light-gray': '#26405e',
