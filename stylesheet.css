@@ -338,7 +338,7 @@ input:checked + .slider:before {
 
 .content {
 	display: block;
-	min-height: cal(var(--content-height) * 2);
+	min-height: calc(var(--content-height) * 2);
 }
 
 .content .height-wrapper {
