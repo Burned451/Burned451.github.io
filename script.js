@@ -9,9 +9,7 @@ $(document).ready(function() {
 		load_page()
 	});
 	
-	$(".content-tile-icon.camera").load("icons/icon-camera.svg" {
-				console.log("SVG Finished");
-	});
+	$(".content-tile-icon.camera").load("icons/icon-camera.svg");
 	$(".content-tile-icon.project").load("icons/icon-project.svg");
 	$(".content-tile-icon.about").load("icons/icon-about.svg");
 });
@@ -66,8 +64,6 @@ function load_page() {
 			break;
 		default:
 			$('title').html('Edward Boguslavsky - Home');
-			$(".content").load("pages/home.html" {
-				console.log("HTML Finished");
-			});
+			$(".content").load("pages/home.html");
 	}
 }
