@@ -358,9 +358,7 @@ input:checked + .slider:before {
 }
 
 .content .width-wrapper .content-tile-wrapper .content-tile-icon svg {
-	display: block;
-	margin: 0 auto;
-	width: 128px;
+	width: 100px;
 	height: auto;
 }
 
