@@ -19,8 +19,8 @@ function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
 		$(':root').css({'--text-black': '#f0f2f4',
 						'--text-white': '#f0f2f4',
-						'--text-blue': '#88b1df',
-						'--text-blue-gray': '#b2b6bb',
+						'--text-color-light': '#88b1df',
+						'--text-color-dark': '#b2b6bb',
 						'--background-white': '#0f1925',
 						'--background-extra-light': '#0f0024',
 						'--background-light-gray': '#26405e',
@@ -29,8 +29,8 @@ function toggle_dark_mode(obj) {
 	} else {
 		$(':root').css({'--text-black': '',
 						'--text-white': '',
-						'--text-blue': '',
-						'--text-blue-gray': '',
+						'--text-color-light': '',
+						'--text-color-dark': '',
 						'--background-white': '',
 						'--background-extra-light': '',
 						'--background-light-gray': '',
