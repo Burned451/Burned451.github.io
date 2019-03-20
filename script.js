@@ -40,6 +40,7 @@ function toggle_dark_mode(obj) {
 }
 
 function load_page() {
+	$('.content').css('min-height', this.height());
 	$(".content").empty();
 	switch(window.location.hash) {
 		case '#gallery':
@@ -66,6 +67,7 @@ function load_page() {
 				$(".content-tile-icon.about").load("icons/icon-about.svg");
 			});
 	}
+	$('.content').css('min-height', '');
 }
 
 function scroll_content() {
