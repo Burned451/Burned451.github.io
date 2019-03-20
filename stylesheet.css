@@ -346,7 +346,7 @@ input:checked + .slider:before {
 	padding: var(--content-height) 0;
 }
 
-.content .height-wrapper:nth-child(even) {
+.content .height-wrapper:nth-of-type(even) {
 	background: var(--background-white);
 }
 
