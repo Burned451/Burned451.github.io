@@ -334,11 +334,7 @@ input:checked + .slider:before {
 
 .content {
 	display: block;
-}
-
-.content:empty {
-	background: red;
-	height: cal(var(--content-height) * 2);
+	min-height: cal(var(--content-height) * 2);
 }
 
 .content .height-wrapper {
@@ -364,14 +360,10 @@ input:checked + .slider:before {
 	overflow: hidden;
 }
 
-.content .width-wrapper .content-tile-wrapper .content-tile-icon:empty {
-	height: 100px;
-}
-
 .content .width-wrapper .content-tile-wrapper .content-tile-icon svg {
 	margin: 0 0 8px 0;
-	width: 100px;
-	height: auto;
+	width: auto;
+	height: 100px;
 }
 
 .content .width-wrapper .content-tile-wrapper .content-tile-icon svg path {
