@@ -1,9 +1,3 @@
-load_page()
-
-$(window).on('hashchange', function() {		
-	load_page()
-});
-
 $(document).ready(function() {
 	$(".header-logo").load("icons/icon-logo.svg");
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
@@ -19,6 +13,14 @@ $(document).scroll(function() {
 	if ($('body').scrollTop() > 0) $('.header').css('background', 'rgba(0, 0, 0, 0.3)');
 	else $('.header').css('background', '');
 });
+
+function load_content() {
+	load_page()
+
+	$(window).on('hashchange', function() {		
+		load_page()
+	});
+}
 
 function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
