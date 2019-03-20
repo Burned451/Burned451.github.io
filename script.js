@@ -4,7 +4,7 @@ $(document).ready(function() {
 	$(".title-icon").load("icons/icon-head.svg");
 	$(".content-tile-icon.camera").load("icons/icon-camera.svg");
 	$(".content-tile-icon.project").load("icons/icon-project.svg");
-	$(".content-tile-icon.project").load("icons/icon-about.svg");
+	$(".content-tile-icon.about").load("icons/icon-about.svg");
 			
 	load_page()
 	
