@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	$(".header-logo").load("icons/icon-camera.svg");
+	$(".header-logo").load("icons/icon-logo.svg");
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
 			
@@ -9,6 +9,7 @@ $(document).ready(function() {
 		load_page()
 	});
 	
+	$(".content-tile-icon").load("icons/icon-camera.svg");
 	//$(".content-tile-icon.camera").load("icons/icon-camera.svg");
 	//$(".content-tile-icon.project").load("icons/icon-project.svg");
 	//$(".content-tile-icon.about").load("icons/icon-about.svg");
