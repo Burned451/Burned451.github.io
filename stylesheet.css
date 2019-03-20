@@ -58,8 +58,7 @@ h2 {
 
 h3 {
 	display: inline-block;
-	align-self: center;
-	margin: 0;
+	margin: 0 0 8px 0;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 300;
 	font-size: 20px;
@@ -359,8 +358,9 @@ input:checked + .slider:before {
 }
 
 .content .width-wrapper .content-tile-wrapper .content-tile-icon svg {
+	display: block;
 	margin: 0 auto;
-	width: 100px;
+	width: 128px;
 	height: auto;
 }
 
