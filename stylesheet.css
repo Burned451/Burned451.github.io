@@ -336,6 +336,10 @@ input:checked + .slider:before {
 	display: block;
 }
 
+.content:empty {
+	height: cal(var(--content-height) * 2);
+}
+
 .content .height-wrapper {
 	background: var(--background-extra-light);
 	padding: var(--content-height) 0;
