@@ -12,7 +12,7 @@
 	--text-blue-gray: #606770;
 	
 	--background-white: #ffffff;
-	--background-extra-light-gray: #f0f0f0;
+	--background-extra-light: #f1e7ff;
 	--background-light-gray: #f1f1f1;
 	--background-gray: #e1e1e1;
 	--background-dark-gray: #4f4f4f;
@@ -60,8 +60,9 @@ h3 {
 	display: inline-block;
 	margin: 0 0 8px 0;
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 20px;
+	font-weight: 800;
+	font-size: 22px;
+	letter-spacing: -1px;
 	color: var(--text-blue);
 }
 
@@ -335,7 +336,7 @@ input:checked + .slider:before {
 }
 
 .content .height-wrapper {
-	background: var(--background-extra-light-gray);
+	background: var(--background-extra-light);
 	padding: var(--content-height) 0;
 }
 

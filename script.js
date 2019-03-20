@@ -22,7 +22,7 @@ function toggle_dark_mode(obj) {
 						'--text-blue': '#88b1df',
 						'--text-blue-gray': '#b2b6bb',
 						'--background-white': '#0f1925',
-						'--background-extra-light-gray': '#090f16',
+						'--background-extra-light': '#0f0024',
 						'--background-light-gray': '#26405e',
 						'--background-gray': '#335b88'});
 		$('a.link-page').css('background-image', 'url(icons/icon-link-dark.png)');
@@ -32,7 +32,7 @@ function toggle_dark_mode(obj) {
 						'--text-blue': '',
 						'--text-blue-gray': '',
 						'--background-white': '',
-						'--background-extra-light-gray': '',
+						'--background-extra-light': '',
 						'--background-light-gray': '',
 						'--background-gray': ''});
 		$('a.link-page').css('background-image', 'url(icons/icon-link.png)');
