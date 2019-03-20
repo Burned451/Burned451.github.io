@@ -69,6 +69,7 @@ function load_page() {
 }
 
 function scroll_content() {
+	$('.content').css('min-height', '0');
 	$('.content').css('min-height', $('.content').height());
 	$(window).scrollTop($('.content').offset().top);
 }
