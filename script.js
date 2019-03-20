@@ -19,8 +19,8 @@ function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
 		$(':root').css({'--text-black': '#f0f2f4',
 						'--text-white': '#f0f2f4',
-						'--text-color-light': '#88b1df',
-						'--text-color-dark': '#b2b6bb',
+						'--text-color-light': '#c0acffb3',
+						'--text-color-dark': '#e6deffcc',
 						'--background-white': '#0f1925',
 						'--background-extra-light': '#0f0024',
 						'--background-light-gray': '#26405e',
