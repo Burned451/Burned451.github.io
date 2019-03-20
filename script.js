@@ -53,6 +53,7 @@ function load_page() {
 		case '#about':
 			$('title').html('Edward Boguslavsky - About');
 			$(".content").load("pages/about.html");
+			$('body').scrollTop($('.content').offset().top);
 			break;
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
