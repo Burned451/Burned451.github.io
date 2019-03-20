@@ -358,19 +358,14 @@ input:checked + .slider:before {
 	overflow: hidden;
 }
 
-.content .width-wrapper .content-tile-wrapper .content-tile.icon.title {
-	display: grid; 
-	grid-template: minmax(40px, auto) / 40px 1fr;
-	grid-gap: 8px 12px; 
+.content .width-wrapper .content-tile-wrapper .content-tile-icon svg {
+	margin: 0 auto;
+	width: 100px;
+	height: auto;
 }
 
-.content .width-wrapper .content-tile-wrapper .content-tile-icon {
-	display: inline-block;
-	align-self: center;
-	background: #4172aa 50%/24px no-repeat;
-	border-radius: 50%;
-	width: 40px;
-	height: 40px;
+.content .width-wrapper .content-tile-wrapper .content-tile-icon svg path {
+	fill: url(#icon-gradient);
 }
 
 /* ============================================================================================================= */
