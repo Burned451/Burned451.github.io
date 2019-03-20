@@ -56,7 +56,9 @@ function load_page() {
 			break;
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
-			$(".content").load("pages/eportfolio.html", scroll_content());
+			$(".content").load("pages/eportfolio.html", function() {
+				scroll_content()
+			});
 			break;
 		default:
 			$('title').html('Edward Boguslavsky - Home');
