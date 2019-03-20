@@ -1,13 +1,13 @@
+load_page()
+
+$(window).on('hashchange', function() {		
+	load_page()
+});
+
 $(document).ready(function() {
 	$(".header-logo").load("icons/icon-logo.svg");
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
-			
-	load_page()
-	
-	$(window).on('hashchange', function() {		
-		load_page()
-	});
 	
 	$(".content-tile-icon").load("icons/icon-camera.svg");
 	//$(".content-tile-icon.camera").load("icons/icon-camera.svg");
