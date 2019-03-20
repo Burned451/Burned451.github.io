@@ -8,10 +8,6 @@ $(document).ready(function() {
 	$(window).on('hashchange', function() {		
 		load_page()
 	});
-	
-	$(".content-tile-icon.camera").load("icons/icon-camera.svg");
-	$(".content-tile-icon.project").load("icons/icon-project.svg");
-	$(".content-tile-icon.about").load("icons/icon-about.svg");
 });
 
 $(document).scroll(function() {
@@ -65,5 +61,8 @@ function load_page() {
 		default:
 			$('title').html('Edward Boguslavsky - Home');
 			$(".content").load("pages/home.html");
+			$(".content-tile-icon.camera").load("icons/icon-camera.svg");
+			$(".content-tile-icon.project").load("icons/icon-project.svg");
+			$(".content-tile-icon.about").load("icons/icon-about.svg");
 	}
 }
