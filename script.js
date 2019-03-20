@@ -67,7 +67,6 @@ function load_page() {
 				$(".content-tile-icon.about").load("icons/icon-about.svg");
 			});
 	}
-	$('.content').css('min-height', '');
 }
 
 function scroll_content() {
