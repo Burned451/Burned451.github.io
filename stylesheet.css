@@ -377,16 +377,31 @@ input:checked + .slider:before {
 
 .thumbnail-wrapper {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, calc(100px * 16 / 9));
 	grid-gap: 16px;
 	justify-content: center;
 	padding: 0 16px;
 }
 
+.thumbnail-wrapper.digital {
+	grid-template-columns: repeat(auto-fit, calc(100px * 16 / 9));
+}
+
+.thumbnail-wrapper.traditional {
+	grid-template-columns: repeat(auto-fit, calc(100px * 4 / 3));
+}
+
 .thumbnail-wrapper .thumbnail {
 	display: inline-block;
-	width: calc(100px * 16 / 9);
+	background: 50%/cover;
 	height: 100px;
+}
+
+.thumbnail-wrapper.digital .thumbnail {
+	width: calc(100px * 16 / 9);
+}
+
+.thumbnail-wrapper.traditional .thumbnail {
+	width: calc(100px * 4 / 3);
 }
 
 /* ============================================================================================================= */
