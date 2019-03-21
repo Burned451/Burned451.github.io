@@ -46,14 +46,15 @@ body {
 
 h2 {
 	display: block;
-    margin-block-start: auto;
-    margin-block-end: auto;
-	padding: 32px 0;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	font-size: 24px;
+    margin: 0;
+	padding: 0 0 calc(var(--content-height) / 2) 0;
 	color: var(--text-color-dark);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 32px;
+	letter-spacing: -1px;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 h3 {
