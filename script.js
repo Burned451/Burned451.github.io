@@ -78,5 +78,7 @@ function scroll_content() {
 
 function load_gallery() {
 	for (var i = 0; i < 12; i++)
-		$('.thumbnail-wrapper').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
+		$('.thumbnail-wrapper.digital').append('<div class="thumbnail digital" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
+	for (var i = 0; i < 3; i++)
+		$('.thumbnail-wrapper.traditional').append('<div class="thumbnail traditional" style="background-image: url(images/gallery/tr-' + i + '.jpg)"></div>');
 }
