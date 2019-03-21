@@ -77,5 +77,6 @@ function scroll_content() {
 }
 
 function load_gallery() {
-	$('.height-wrapper:nth-of-type(1)').append('<div class="gallery-thumbnail" style="background-image: url(images/gallery/th-0.jpg)"></div>');
+	for (var i = 0; i < 12; i++)
+		$('.content .height-wrapper:nth-of-type(1)').append('<div class="gallery-thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
 }
