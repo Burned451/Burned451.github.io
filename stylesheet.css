@@ -375,68 +375,14 @@ input:checked + .slider:before {
 /* ================================================== GALLERY ================================================== */
 /* ============================================================================================================= */
 
-.gallery-images {
-	text-align: center;
+.thumbnail-wrapper {
+	
 }
 
-.gallery-images-content-wide {
-	width: 168px;
-	height: 95px;
+.thumbnail-wrapper .thumbnail {
 	display: inline-block;
-	margin: 4px;
-	border-radius: 4px;
-	transition: 0.4s;
-}
-
-.gallery-images-content-regular {
-	width: 136px;
-	height: 95px;
-	display: inline-block;
-	margin: 4px;
-	border-radius: 4px;
-	transition: 0.4s;
-}
-
-.gallery-images-content-wide:hover, .gallery-images-content-regular:hover {
-	opacity: 0.6;
-	cursor: pointer;
-}
-
-.gallery-modal { 
-	display: none;
-	position: fixed;
-	z-index: 4;
-	left: 0;
-	top: 0;
-	width: 100%;
-	height: 100%;
-	overflow: auto;
-	background-color: rgb(0,0,0);
-	background-color: rgba(0,0,0,0.9);
-}
-
-.gallery-modal-content {
-	margin: auto;
-	display: block;
-	width: 55%;
-	max-width: 750px;
-	margin-top: 100px;
-}
-
-.gallery-modal-close {
-	position: absolute;
-	top: 15px;
-	right: 35px;
-	color: #f1f1f1;
-	font-size: 40px;
-	font-weight: bold;
-	transition: 0.3s;
-}
-
-.gallery-modal-close:hover, .gallery-modal-close:focus {
-	color: #bbb;
-	text-decoration: none;
-	cursor: pointer;
+	width: calc(100px * 16 / 9);
+	height: 100px;
 }
 
 /* ============================================================================================================= */

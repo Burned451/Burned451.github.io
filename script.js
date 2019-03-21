@@ -78,5 +78,5 @@ function scroll_content() {
 
 function load_gallery() {
 	for (var i = 0; i < 12; i++)
-		$('.content .height-wrapper:nth-of-type(1)').append('<div class="gallery-thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
+		$('.thumbnail-wrapper').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
 }
