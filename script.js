@@ -83,7 +83,7 @@ function load_gallery() {
 		$('.thumbnail-wrapper.traditional').append('<div class="thumbnail" style="background-image: url(images/gallery/tr-' + i + '.png)"></div>');
 }
 
-$('.thumbnail-wrapper').onclick = function() {
+$('.thumbnail').onclick = function() {
     $('modal-image').css('background-image', this.css('background-image');
 	$('modal').css('display', 'block');
 };
