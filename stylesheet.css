@@ -407,6 +407,7 @@ input:checked + .slider:before {
 }
 
 .thumbnail-wrapper .thumbnail:before {
+	content: '';
 	position: absolute;
 	top: 0;
 	left: 0;
