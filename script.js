@@ -84,7 +84,7 @@ function load_gallery() {
 }
 
 $(document).on('click', '.thumbnail', function() {
-    $('.modal-image').css('background-image', this.css('background-image'));
+    $('.modal-image').css('background-image', $(this).css('background-image'));
 	$('.modal').css('display', 'block');
 	console.log("open modal");
 });
