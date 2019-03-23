@@ -88,10 +88,6 @@ $(document).on('click', '.thumbnail', function() {
 	$('.modal').css('display', 'flex');
 });
 
-/*
-$('.thumbnail').on('click', function() {
-    $('.modal-image').css('background-image', this.css('background-image'));
-	$('.modal').css('display', 'block');
-	console.log("open modal");
+$(document).on('click', '.modal-close', function() {
+	$('.modal').css('display', 'none');
 });
-*/
