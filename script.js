@@ -84,6 +84,6 @@ function load_gallery() {
 }
 
 $('.thumbnail').onclick = function() {
-    $('modal-image').css('background-image', this.css('background-image');
+    $('modal-image').css('background-image', this.css('background-image'));
 	$('modal').css('display', 'block');
 };
