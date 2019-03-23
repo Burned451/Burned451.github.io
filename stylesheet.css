@@ -418,7 +418,7 @@ input:checked + .slider:before {
 }
 
 .thumbnail-wrapper .thumbnail:hover:before {
-	background: rgba(0, 0, 0, 0.75);
+	background: rgba(0, 0, 0, 0.6);
 }
 
 .thumbnail-wrapper .thumbnail svg {
