@@ -78,12 +78,12 @@ function scroll_content() {
 
 function load_gallery() {
 	for (var i = 0; i < 12; i++)
-		$('.thumbnail-wrapper.digital').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)" onclick="open_modal(this)"></div>');
+		$('.thumbnail-wrapper.digital').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
 	for (var i = 0; i < 3; i++)
 		$('.thumbnail-wrapper.traditional').append('<div class="thumbnail" style="background-image: url(images/gallery/tr-' + i + '.png)"></div>');
 }
 
-function open_modal(img) {
-	$('.modal').css('display', 'block');
-	$('.modal-image').css('background-image', img.css('background-image'));
-}
+$('.thumbnail-wrapper').onclick = function() {
+    $('modal-image').css('background-image', this.css('background-image');
+	$('modal').css('display', 'block');
+};
