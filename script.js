@@ -47,6 +47,7 @@ function load_page() {
 			$(".content").load("pages/gallery.html", function() {
 				scroll_content();
 				load_gallery();
+				$(".thumbnail").load("icons/icon-zoom-in.svg");
 			});
 			break;
 		case '#links':
