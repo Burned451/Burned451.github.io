@@ -406,7 +406,24 @@ input:checked + .slider:before {
 
 .modal {
 	display: none;
+	justify-content: center;
+	align-items: center;
 	position: fixed;
+	background: rgba(0, 0, 0, 0.8);
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.modal .modal-image {
+	background: 50%/contain no-repeat;
+	width: 80%;
+	height: 80%;
+}
+
+.modal .modal-close {
+	position: absolute;
 }
 
 /* ============================================================================================================= */
