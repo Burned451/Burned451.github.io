@@ -85,5 +85,5 @@ function load_gallery() {
 
 function open_modal(img) {
 	$('.modal').css('display', 'block');
-	$('.modal-image').css('background-image', img.css('background-image'););
+	$('.modal-image').css('background-image', img.css('background-image'));
 }
