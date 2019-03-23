@@ -78,7 +78,12 @@ function scroll_content() {
 
 function load_gallery() {
 	for (var i = 0; i < 12; i++)
-		$('.thumbnail-wrapper.digital').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)"></div>');
+		$('.thumbnail-wrapper.digital').append('<div class="thumbnail" style="background-image: url(images/gallery/th-' + i + '.jpg)" onclick="open_modal(this)"></div>');
 	for (var i = 0; i < 3; i++)
 		$('.thumbnail-wrapper.traditional').append('<div class="thumbnail" style="background-image: url(images/gallery/tr-' + i + '.png)"></div>');
+}
+
+function open_modal(img) {
+	$('.modal').css('display', 'fixed');
+	$('.modal').css('background-image', img.css('background-image'););
 }
