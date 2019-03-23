@@ -84,6 +84,6 @@ function load_gallery() {
 }
 
 function open_modal(img) {
-	$('.modal').css('display', 'fixed');
-	$('.modal').css('background-image', img.css('background-image'););
+	$('.modal').css('display', 'block');
+	$('.modal-image').css('background-image', img.css('background-image'););
 }
