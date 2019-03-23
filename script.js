@@ -89,5 +89,5 @@ $(document).on('click', '.thumbnail', function() {
 });
 
 $(document).on('click', '.modal-close', function() {
-	$('.modal').css('display', 'none');
+	$('.modal').css('display', '');
 });

@@ -394,6 +394,7 @@ input:checked + .slider:before {
 	display: inline-block;
 	background: 50%/cover;
 	height: 100px;
+	cursor: pointer;
 }
 
 .thumbnail-wrapper.digital .thumbnail {
@@ -425,18 +426,22 @@ input:checked + .slider:before {
 
 .modal .modal-close {
 	position: absolute;
-	top: 16px;
-	right: 16px;
+	top: 0;
+	right: 0;
+	width: var(--header-height);
+	height: var(--header-height);
 	color: white;
 	font-size: 48px;
-	line-height: 1ch;
+	text-align: center;
+	line-height: var(--header-height);
 	overflow: hidden;
 	cursor: pointer;
 	user-select: none;
+	transition: 0.2s ease-in-out;
 }
 
 .modal .modal-close:hover {
-	opacity: 0.6;
+	background: rgba(0, 0, 0, 0.3);
 }
 
 /* ============================================================================================================= */
