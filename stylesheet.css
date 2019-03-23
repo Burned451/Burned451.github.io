@@ -145,7 +145,7 @@ input:checked + .slider:before {
 	width: 100%;
 	height: var(--title-height);
 	transition: background 0.2s ease-in-out;
-	z-index: 99;
+	z-index: 999;
 }
 
 .header .width-wrapper {
@@ -410,7 +410,7 @@ input:checked + .slider:before {
 	justify-content: center;
 	align-items: center;
 	position: fixed;
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.75);
 	top: 0;
 	left: 0;
 	width: 100%;

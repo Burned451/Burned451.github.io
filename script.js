@@ -86,8 +86,10 @@ function load_gallery() {
 $(document).on('click', '.thumbnail', function() {
     $('.modal-image').css('background-image', $(this).css('background-image').replace('th-', ''));
 	$('.modal').css('display', 'flex');
+	$('.header').css('display', 'none');
 });
 
 $(document).on('click', '.modal-close', function() {
 	$('.modal').css('display', '');
+	$('.header').css('display', '');
 });
