@@ -45,9 +45,9 @@ function load_page() {
 		case '#gallery':
 			$('title').html('Edward Boguslavsky - Gallery');
 			$(".content").load("pages/gallery.html", function() {
-				scroll_content();
 				load_gallery();
 				$(".thumbnail").load("icons/icon-zoom-in.svg");
+				scroll_content();
 			});
 			break;
 		case '#links':
@@ -56,7 +56,11 @@ function load_page() {
 			break;
 		case '#about':
 			$('title').html('Edward Boguslavsky - About');
-			$(".content").load("pages/about.html", function() { scroll_content() });
+			$(".content").load("pages/about.html", function() {
+				$(".content-tile-icon.book").load("icons/icon-book.svg");
+				$(".content-tile-icon.mail").load("icons/icon-mail.svg");
+				scroll_content()
+			});
 			break;
 		case '#eportfolio':
 			$('title').html('Edward Boguslavsky - ePortfolio');
