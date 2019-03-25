@@ -443,7 +443,7 @@ input:checked + .slider:before {
 }
 
 .footer .footer-column .scroll-top:hover .scroll-top-icon svg {
-	animation: bounce 0.2s ease-in-out infinite alternate;
+	animation: bounce 0.3s ease-in-out infinite alternate;
 }
 
 .footer .footer-column .scroll-top .scroll-top-icon svg path {
