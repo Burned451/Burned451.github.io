@@ -394,28 +394,32 @@ input:checked + .slider:before {
 	justify-content: space-evenly;
 }
 
-.footer .footer-logo svg {
+.footer .footer-column {
+	min-width: 100px;
+}
+
+.footer .footer-column .footer-logo svg {
 	margin: 0 0 8px 0;
 	width: 24px;
 	height: auto;
 	opacity: 0.8;
 }
 
-.footer .footer-logo svg g {
+.footer .footer-column .footer-logo svg g {
 	fill: white!important;
 }
 
-.footer .footer-logo svg g path:first-child {
+.footer .footer-column .footer-logo svg g path:first-child {
 	opacity: 0.6;
 }
 
-.footer .scroll-top svg {
+.footer .footer-column .scroll-top svg {
 	width: 16px;
 	height: auto;
 	opacity: 0.6;
 }
 
-.footer .scroll-top  svg g {
+.footer .footer-column .scroll-top svg path {
 	fill: white!important;
 }
 
