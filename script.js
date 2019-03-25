@@ -99,15 +99,16 @@ $(document).on('click', '.modal-close', function() {
 	$('.header').css('display', '');
 });
 
-$(document).click(function(){
-	console.log("clicked outside");
-	$('.dropdown-content > div').css('height', '');
-	$('.dropdown-content > div').css('line-height', '');
-});
-
-$('.dropdown-icon').click(function(e){
-	e.stopPropagation();
-	console.log("clicked dropdown");
+$('dropdown').click( function() {
 	$('.dropdown-content > div').css('height', '42px');
 	$('.dropdown-content > div').css('line-height', '42px');
+});
+
+$(document).click( function(e) {
+    e.stopPropagation();
+
+    if ($(".dropdown").has(e.target).length === 0) {
+		$('.dropdown-content > div').css('height', '');
+		$('.dropdown-content > div').css('line-height', '');
+    }
 });
