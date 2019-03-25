@@ -121,4 +121,5 @@ $(document).click(function(e) {
 
 $('.scroll-top').click(function() {
 	window.scrollTo(0, 0);
+	console.log("top");
 });
