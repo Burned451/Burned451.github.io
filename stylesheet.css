@@ -256,6 +256,7 @@ input:checked + .slider:before {
 	position: absolute;
 	top: var(--header-height);
 	right: 0;
+	transition: background-color 0.2s ease-in-out;
 }
 
 .header .dropdown .dropdown-content > * {
