@@ -391,11 +391,13 @@ input:checked + .slider:before {
 
 .footer .width-wrapper {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
+	max-width: calc(var(--content-width) / 2);
 }
 
 .footer .footer-column {
 	min-width: 100px;
+	text-align: center;
 }
 
 .footer .footer-column .footer-logo svg {
