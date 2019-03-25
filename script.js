@@ -100,11 +100,13 @@ $(document).on('click', '.modal-close', function() {
 });
 
 $(document).click(function(){
+	console.log("clicked outside");
 	$('.dropdown-content > div').css('height', '');
 	$('.dropdown-content > div').css('line-height', '');
 });
 
 $('.dropdown').click(function(e){
+	console.log("clicked dropdown");
 	$('.dropdown-content > div').css('height', '42px');
 	$('.dropdown-content > div').css('line-height', '42px');
 	e.stopPropagation();
