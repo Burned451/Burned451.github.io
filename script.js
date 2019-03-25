@@ -99,7 +99,8 @@ $(document).on('click', '.modal-close', function() {
 	$('.header').css('display', '');
 });
 
-$('dropdown').click( function() {
+$('.dropdown').click( function() {
+	console.log("dropdown");
 	$('.dropdown-content > div').css('height', '42px');
 	$('.dropdown-content > div').css('line-height', '42px');
 });
@@ -108,6 +109,7 @@ $(document).click( function(e) {
     e.stopPropagation();
 
     if ($(".dropdown").has(e.target).length === 0) {
+		console.log("outside");
 		$('.dropdown-content > div').css('height', '');
 		$('.dropdown-content > div').css('line-height', '');
     }
