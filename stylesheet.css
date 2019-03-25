@@ -258,21 +258,11 @@ input:checked + .slider:before {
 	right: 0;
 }
 
-.header .dropdown .dropdown-content > div {
+.header .dropdown .dropdown-content > * {
 	display: block;
 	background-color: rgba(0, 0, 0, 0.3);
 	padding: 0 18px;
 	height: 0;
-	transition: 0.1s ease-in-out;
-	overflow: hidden;
-}
-
-.header .dropdown .dropdown-content .dropdown-link {
-	display: none;
-}
-
-.header .dropdown .dropdown-content > div,
-.header .dropdown .dropdown-content > div a {
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -280,6 +270,12 @@ input:checked + .slider:before {
 	line-height: 42px;
 	text-decoration: none;
 	white-space: nowrap;
+	transition: 0.1s ease-in-out;
+	overflow: hidden;
+}
+
+.header .dropdown .dropdown-content .dropdown-link {
+	display: none;
 }
 
 /* ============================================================================================================= */

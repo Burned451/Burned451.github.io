@@ -102,5 +102,5 @@ $(document).on('click', '.modal-close', function() {
 $(document).click( function(e) {
     e.stopPropagation();
 	var height = $('.dropdown').has(e.target).length ? '42px' : '';
-	$('.dropdown-content > div').css('height', height);
+	$('.dropdown-content > *').css('height', height);
 });
