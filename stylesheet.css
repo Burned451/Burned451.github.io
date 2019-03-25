@@ -254,27 +254,32 @@ input:checked + .slider:before {
 
 .header .dropdown .dropdown-content {
 	position: absolute;
-	background-color: var(--background-white);
 	top: var(--header-height);
 	right: 0;
 }
 
 .header .dropdown .dropdown-content > div {
 	display: block;
-	background-color: var(--background-light-gray);
+	background-color: rgba(0, 0, 0, 0.3);
 	padding: 0 18px;
 	height: 0;
-	color: var(--text-black);
-	font-size: 16px;
-	line-height: 42px;
-	text-decoration: none;
 	transition: 0.1s ease-in-out;
-	white-space: nowrap;
 	overflow: hidden;
 }
 
 .header .dropdown .dropdown-content .dropdown-link {
 	display: none;
+}
+
+.header .dropdown .dropdown-content > div,
+.header .dropdown .dropdown-content > div a {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 42px;
+	text-decoration: none;
+	white-space: nowrap;
 }
 
 /* ============================================================================================================= */
