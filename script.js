@@ -105,7 +105,7 @@ $(document).on('click', '.modal-close', function() {
 	$('.header').css('display', '');
 });
 
-$(document).click( function(e) {
+$(document).click(function(e) {
     e.stopPropagation();
 	if ($('.dropdown').has(e.target).length) {
 		$('.dropdown').css('background-color', 'rgba(0, 0, 0, 0.3)');

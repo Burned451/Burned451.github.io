@@ -76,6 +76,17 @@ h4 {
 	color: var(--text-color-dark);
 }
 
+h5 {
+	display: block;
+	margin: 0 0 8px 0;
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+	font-size: 14px;
+	letter-spacing: -1px;
+	opacity: 0.6;
+}
+
 p {
 	margin: 8px 0 0 0;
 	font-family: 'Open Sans', sans-serif;
@@ -307,6 +318,7 @@ input:checked + .slider:before {
 	line-height: 60px;
 	letter-spacing: -3px;
 	opacity: 0.9;
+	user-select: none;
 	/*animation: float-up-in-0-9 1s ease-in-out both;*/
 }
 
@@ -366,6 +378,35 @@ input:checked + .slider:before {
 
 .content .width-wrapper .content-tile-wrapper .content-tile-icon svg path {
 	fill: url(#icon-gradient);
+}
+
+/* ============================================================================================================= */
+/* ================================================== FOOTER =================================================== */
+/* ============================================================================================================= */
+
+.footer {
+	
+}
+
+.footer .height-wrapper {
+	background: rgba(0, 0, 0, 0.8);
+	padding: var(--content-height) 0;
+}
+
+.footer .width-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer .footer-column a {
+	display: block;
+	padding: 4px 0;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	opacity: 0.8;
 }
 
 /* ============================================================================================================= */
