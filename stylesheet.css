@@ -413,13 +413,18 @@ input:checked + .slider:before {
 	opacity: 0.6;
 }
 
-.footer .footer-column .scroll-top svg {
+.footer .footer-column .scroll-top a {
+	padding: 0 0 0 4px;
+	line-height: 16px;
+}
+
+.footer .footer-column .scroll-top .scroll-top-icon svg {
 	width: 16px;
 	height: auto;
 	opacity: 0.6;
 }
 
-.footer .footer-column .scroll-top svg path {
+.footer .footer-column .scroll-top .scroll-top-icon svg path {
 	fill: white!important;
 }
 

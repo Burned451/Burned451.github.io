@@ -3,7 +3,7 @@ $(document).ready(function() {
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
 	$(".footer-logo").load("icons/icon-logo.svg");
-	$(".scroll-top").load("icons/icon-arrow-up.svg");
+	$('.scroll-top').append($('<div class="scroll-top-icon"></div>').load("icons/icon-arrow-up.svg"));
 			
 	load_page()
 	
