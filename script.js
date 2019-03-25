@@ -107,6 +107,10 @@ $(document).on('click', '.modal-close', function() {
 	$('.header').css('display', '');
 });
 
+$(document).on('click', '.scroll-top', function() {
+	window.scrollTo(0, 0);
+});
+
 $(document).click(function(e) {
     e.stopPropagation();
 	if ($('.dropdown').has(e.target).length) {
@@ -117,9 +121,4 @@ $(document).click(function(e) {
 		$('.dropdown').css('background-color', '');
 		$('.dropdown-content > *').css('height', '');
 	}
-});
-
-$('.scroll-top').click(function() {
-	window.scrollTo(0, 0);
-	console.log("top");
 });
