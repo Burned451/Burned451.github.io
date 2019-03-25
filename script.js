@@ -100,12 +100,12 @@ $(document).on('click', '.modal-close', function() {
 });
 
 $(document).click(function(){
-	$('.dropdown-content > div').css('height', '0');
-	$('.dropdown-content > div').css('line-height', '0');
+	$('.dropdown-content > div').css('height', '');
+	$('.dropdown-content > div').css('line-height', '');
 });
 
 $('.dropdown, .dropdown-content').click(function(e){
 	e.stopPropagation();
-	$('.dropdown-content > div').css('height', '');
-	$('.dropdown-content > div').css('line-height', '');
+	$('.dropdown-content > div').css('height', '42px');
+	$('.dropdown-content > div').css('line-height', '42px');
 });
