@@ -118,3 +118,7 @@ $(document).click(function(e) {
 		$('.dropdown-content > *').css('height', '');
 	}
 });
+
+$('.scroll-top').click(function() {
+	window.scrollTo(0, 0);
+});
