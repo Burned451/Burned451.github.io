@@ -273,6 +273,7 @@ input:checked + .slider:before {
 	text-decoration: none;
 	transition: 0.2s ease-in-out;
 	white-space: nowrap;
+	overflow: hidden;
 }
 
 .header .dropdown .dropdown-content .dropdown-link {
