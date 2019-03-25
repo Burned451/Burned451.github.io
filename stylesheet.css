@@ -256,25 +256,22 @@ input:checked + .slider:before {
 }
 
 .header .dropdown .dropdown-content {
-	display: none;
 	position: absolute;
 	background-color: var(--background-white);
 	top: var(--header-height);
 	right: 0;
 }
 
-.header .dropdown:hover .dropdown-content {
-	display: block;
-}
-
-.header .dropdown .dropdown-content div {
+.header .dropdown .dropdown-content > div {
 	display: block;
 	background-color: var(--background-light-gray);
-	padding: 9px 18px;
-	font-size: 16px;
+	padding: 0 18px;
+	height: 42px;
 	color: var(--text-black);
+	font-size: 16px;
+	line-height: 42px;
 	text-decoration: none;
-	user-select: none;
+	transition: 0.2s ease-in-out;
 	white-space: nowrap;
 }
 
