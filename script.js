@@ -101,13 +101,6 @@ $(document).on('click', '.modal-close', function() {
 
 $(document).click( function(e) {
     e.stopPropagation();
-
-    if ($(".dropdown").has(e.target).length === 0) {
-		$('.dropdown-content > div').css('height', '0');
-		$('.dropdown-content > div').css('line-height', '0');
-    }
-	else {
-		$('.dropdown-content > div').css('height', '42px');
-		$('.dropdown-content > div').css('line-height', '42px');
-	}
+	var height = $('.dropdown').has(e.target).length ? '42px' : '';
+	$('.dropdown-content > div').css('height', height);
 });
