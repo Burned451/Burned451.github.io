@@ -105,9 +105,9 @@ $(document).click(function(){
 	$('.dropdown-content > div').css('line-height', '');
 });
 
-$('.dropdown').click(function(e){
+$('.dropdown-icon').click(function(e){
+	e.stopPropagation();
 	console.log("clicked dropdown");
 	$('.dropdown-content > div').css('height', '42px');
 	$('.dropdown-content > div').css('line-height', '42px');
-	e.stopPropagation();
 });
