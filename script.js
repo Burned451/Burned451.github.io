@@ -103,12 +103,10 @@ $(document).click( function(e) {
     e.stopPropagation();
 
     if ($(".dropdown").has(e.target).length === 0) {
-		console.log("outside");
-		$('.dropdown-content > div').css('height', '');
-		$('.dropdown-content > div').css('line-height', '');
+		$('.dropdown-content > div').css('height', '0');
+		$('.dropdown-content > div').css('line-height', '0');
     }
 	else {
-		console.log("dropdown");
 		$('.dropdown-content > div').css('height', '42px');
 		$('.dropdown-content > div').css('line-height', '42px');
 	}
