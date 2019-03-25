@@ -394,6 +394,31 @@ input:checked + .slider:before {
 	justify-content: space-evenly;
 }
 
+.footer .footer-logo svg {
+	margin: 0 0 8px 0;
+	width: 24px;
+	height: auto;
+	opacity: 0.8;
+}
+
+.footer .footer-logo svg g {
+	fill: white!important;
+}
+
+.footer .footer-logo svg g path:first-child {
+	opacity: 0.6;
+}
+
+.footer .scroll-top svg {
+	width: 16px;
+	height: auto;
+	opacity: 0.6;
+}
+
+.footer .scroll-top  svg g {
+	fill: white!important;
+}
+
 .footer .footer-column a {
 	display: block;
 	padding: 4px 0;

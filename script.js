@@ -2,6 +2,8 @@ $(document).ready(function() {
 	$(".header-logo").load("icons/icon-logo.svg");
 	$('.dropdown').append($('<div class="dropdown-icon"></div>').load("icons/icon-menu.svg"));
 	$(".title-icon").load("icons/icon-head.svg");
+	$(".footer-logo").load("icons/icon-logo.svg");
+	$(".scroll-top").load("icons/icon-arrow-up.svg");
 			
 	load_page()
 	
