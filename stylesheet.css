@@ -396,12 +396,12 @@ input:checked + .slider:before {
 
 .footer .width-wrapper {
 	display: flex;
-	justify-content: space-between;
-	max-width: calc(var(--content-width) / 2);
+	justify-content: space-around;
+	max-width: calc(var(--content-width) * 2 / 3);
 }
 
 .footer .footer-column {
-	min-width: 100px;
+	min-width: 72px;
 	text-align: center;
 }
 
