@@ -3,8 +3,10 @@
 
 :root {
 	--header-height: 64px;
-	--content-height: 86px;
+	--padding-height: 86px;
 	--content-width: 1024px;
+	--content-skew: 6deg;
+	--content-skew-height: 0vw;
 	
 	--text-black: #000000;
 	--text-white: #ffffff;
@@ -44,20 +46,20 @@ body {
 }
 
 .height-wrapper {
-	transform: skewY(-6deg);
+	transform: skewY(calc(var(--content-skew) * -1));
 }
 
 .width-wrapper {
 	position: relative;
 	margin: 0 auto;
 	max-width: var(--content-width);
-	transform: skewY(6deg);
+	transform: skewY(var(--content-skew));
 }
 
 h2 {
 	display: block;
     margin: 0;
-	padding: 0 0 calc(var(--content-height) / 2) 0;
+	padding: 0 0 calc(var(--padding-height) / 2) 0;
 	color: var(--text-color-dark);
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
@@ -311,8 +313,8 @@ input:checked + .slider:before {
 
 .title .height-wrapper {
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
-	margin-top: -6%;
-	padding: calc(var(--content-height) * 2 + 6vw) 0 calc(var(--content-height) * 2) 0;
+	margin-top: calc(var(--content-skew-height) * -1);
+	padding: calc(var(--padding-height) * 2 + var(--content-skew-height)) 0 calc(var(--padding-height) * 2) 0;
 }
 
 .title .width-wrapper {
@@ -355,12 +357,12 @@ input:checked + .slider:before {
 
 .content {
 	display: block;
-	min-height: calc(var(--content-height) * 2);
+	min-height: calc(var(--padding-height) * 2);
 }
 
 .content .height-wrapper {
 	background: var(--background-extra-light);
-	padding: var(--content-height) 0;
+	padding: var(--padding-height) 0;
 }
 
 .content .height-wrapper:nth-of-type(even) {
@@ -396,16 +398,16 @@ input:checked + .slider:before {
 /* ============================================================================================================= */
 
 .footer {
-	margin-top: -6vw;
-	padding-top: 6vw;
+	margin-top: calc(var(--content-skew-height) * -1);
+	padding-top: var(--content-skew-height);
 	box-shadow: 0 50vh 0 50vh rgba(0, 0, 0, 0.8);
 	overflow: hidden;
 }
 
 .footer .height-wrapper {
 	background: rgba(0, 0, 0, 0.8);
-	margin-bottom: -6%;
-	padding: var(--content-height) 0 calc(var(--content-height) + 6vw) 0;
+	margin-bottom: calc(var(--content-skew-height) * -1);
+	padding: var(--padding-height) 0 calc(var(--padding-height) + var(--content-skew-height)) 0;
 }
 
 .footer .width-wrapper {

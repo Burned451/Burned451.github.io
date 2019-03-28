@@ -4,9 +4,10 @@ $(document).ready(function() {
 	$(".title-icon").load("icons/icon-head.svg");
 	$(".footer-logo").load("icons/icon-logo.svg");
 	$('.scroll-top').append($('<div class="scroll-top-icon"></div>').load("icons/icon-arrow-up.svg"));
+	
+	$(':root').css('--content-skew-height', calc_skew_height());
 			
 	load_page()
-	
 	$(window).on('hashchange', function() {		
 		load_page()
 	});
@@ -45,6 +46,13 @@ function toggle_dark_mode(obj) {
 						'--background-gray': ''});
 		$('a.link-page').css('background-image', 'url(icons/icon-link.png)');
 	}
+}
+
+function calc_skew_height() {
+	var str_skew_deg = $(':root').css('--content-skew');
+	var int_skew_deg = parseInt(str_skew_deg);
+	int_skew_deg = Math.ceil(50.0 * Math.tan(int_skew_deg * Math.PI / 180));
+	return int_skew_deg + 'vw';
 }
 
 function load_page() {
