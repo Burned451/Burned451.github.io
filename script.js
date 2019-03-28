@@ -28,8 +28,8 @@ function toggle_dark_mode(obj) {
 	if($(obj).is(":checked")){
 		$(':root').css({'--text-black': '#f0f2f4',
 						'--text-white': '#f0f2f4',
-						'--text-color-light': '#c0acffb3',
-						'--text-color-dark': '#f0ebffcc',
+						'--text-color-light': 'rgba(192, 172, 255, 0.7)',
+						'--text-color-dark': 'rgba(240, 235, 255, 0.8)',
 						'--background-white': '#0f1925',
 						'--background-extra-light': '#0f0024',
 						'--background-light-gray': '#26405e',
