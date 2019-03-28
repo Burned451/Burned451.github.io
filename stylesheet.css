@@ -306,6 +306,7 @@ input:checked + .slider:before {
 
 .title {
 	display: block;
+	/*background: linear-gradient(-45deg, #43CBFF, #9708CC);*/
 }
 
 .title .height-wrapper {
@@ -397,6 +398,7 @@ input:checked + .slider:before {
 .footer {
 	margin-top: -6vw;
 	padding-top: 6vw;
+	box-shadow: 0 50vh 0 50vh rgba(0, 0, 0, 0.8);
 	overflow: hidden;
 }
 
