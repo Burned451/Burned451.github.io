@@ -3,7 +3,7 @@
 
 :root {
 	--header-height: 64px;
-	--content-height: 64px;
+	--content-height: 86px;
 	--content-width: 1024px;
 	
 	--text-black: #000000;
@@ -43,10 +43,15 @@ body {
 	margin: 0;
 }
 
+.height-wrapper {
+	transform: skewY(-6deg);
+}
+
 .width-wrapper {
 	position: relative;
 	margin: 0 auto;
 	max-width: var(--content-width);
+	transform: skewY(6deg);
 }
 
 h2 {
@@ -306,7 +311,8 @@ input:checked + .slider:before {
 
 .title .height-wrapper {
 	background: url(images/general/back_modded.jpg) 50% 50% / cover no-repeat;
-	padding: calc(var(--content-height) * 2) 0;
+	margin-top: -6%;
+	padding: calc(var(--content-height) * 2 + 6vw) 0 calc(var(--content-height) * 2) 0;
 }
 
 .title .width-wrapper {
@@ -390,12 +396,15 @@ input:checked + .slider:before {
 /* ============================================================================================================= */
 
 .footer {
-	box-shadow: 0 50vh 0 50vh rgba(0, 0, 0, 0.8);
+	margin-top: -6vw;
+	padding-top: 6vw;
+	overflow: hidden;
 }
 
 .footer .height-wrapper {
 	background: rgba(0, 0, 0, 0.8);
-	padding: var(--content-height) 0;
+	margin-bottom: -6%;
+	padding: var(--content-height) 0 calc(var(--content-height) + 6vw) 0;
 }
 
 .footer .width-wrapper {
