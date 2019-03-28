@@ -49,6 +49,10 @@ function toggle_dark_mode(obj) {
 }
 
 function calc_skew_height() {
+	if (window.navigator.userAgent.indexOf("Edge") > -1) {	// If browser is Edge
+		$(':root').css('--content-skew', '0deg');
+		return '0deg';
+	}
 	var str_skew_deg = $(':root').css('--content-skew');
 	var int_skew_deg = parseInt(str_skew_deg);
 	int_skew_deg = Math.ceil(50.0 * Math.tan(int_skew_deg * Math.PI / 180));
