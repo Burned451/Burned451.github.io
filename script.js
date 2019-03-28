@@ -31,8 +31,8 @@ function toggle_dark_mode(obj) {
 						'--text-color-light': 'rgba(192, 172, 255, 0.7)',
 						'--text-color-dark': 'rgba(240, 235, 255, 0.8)',
 						'--text-color-extra-dark': 'rgba(238, 224, 244, 0.9)',
-						'--background-white': '#0f1925',
-						'--background-extra-light': '#0f0024',
+						'--background-white': '#090510',
+						'--background-extra-light': '#12091e',
 						'--background-light-gray': '#26405e',
 						'--background-gray': '#335b88'});
 		$('a.link-page').css('background-image', 'url(icons/icon-link-dark.png)');
