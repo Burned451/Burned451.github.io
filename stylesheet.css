@@ -10,8 +10,8 @@
 	
 	--text-black: #000000;
 	--text-white: #ffffff;
-	--text-color-light: rgba(38, 0, 160, 0.7);	/*#2600a0b3*/
-	--text-color-dark: rgba(17, 0, 71, 0.8);	/*#110047cc*/
+	--text-color-light: rgba(151, 8, 204, 0.9);
+	--text-color-dark: rgba(108, 18, 142, 0.9);
 	
 	--background-white: #ffffff;
 	--background-extra-light: rgba(81, 66, 130, 0.07);	/*#51428211*/
@@ -400,12 +400,12 @@ input:checked + .slider:before {
 .footer {
 	margin-top: calc(var(--content-skew-height) * -1);
 	padding-top: var(--content-skew-height);
-	box-shadow: 0 50vh 0 50vh rgba(0, 0, 0, 0.8);
+	box-shadow: 0 50vh 0 50vh rgba(21, 6, 25, 0.9);
 	overflow: hidden;
 }
 
 .footer .height-wrapper {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(21, 6, 25, 0.9);
 	margin-bottom: calc(var(--content-skew-height) * -1);
 	padding: var(--padding-height) 0 calc(var(--padding-height) + var(--content-skew-height)) 0;
 }
